@@ -1,4 +1,4 @@
-# Laravel E-commerce 
+# Laravel 
 
 ## installation :
 after install the source code open Terminal to use these command line:
