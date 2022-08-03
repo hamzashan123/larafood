@@ -24,6 +24,5 @@ after install the source code open Terminal to use these command line:
 - sudo chmod -R 777 storage
 - sudo chmod -R 777 bootstrap/cache
 
-## Demo
-<a href='http://demoshop.alialqahtani.sa' target="_blank">Try</a>
+
 
