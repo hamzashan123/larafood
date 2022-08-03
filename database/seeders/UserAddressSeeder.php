@@ -23,8 +23,8 @@ class UserAddressSeeder extends Seeder
 
         $ali   = User::whereUsername('ali')->first();
         $ksa   = Country::with('states')->whereId(194)->first();
-        $state = $ksa->states->random()->id;
-        $city = City::whereStateId($state)->inRandomOrder()->first()->id;
+        // $state = $ksa->states->random()->id;
+        // $city = City::whereStateId($state)->inRandomOrder()->first()->id;
 
         $ali->addresses()->create([
             'address_title'         => 'Home',
@@ -35,9 +35,9 @@ class UserAddressSeeder extends Seeder
             'phone'                => $faker->phoneNumber,
             'address'               => $faker->address,
             'address2'              => $faker->secondaryAddress,
-            'country_id'            => $ksa->id,
-            'state_id'              => $state,
-            'city_id'               => $city,
+            'country_id'            => 65,
+            'state_id'              => 3223,
+            'city_id'               => 31848,
             'zip_code'              => $faker->randomNumber(5),
             'po_box'                => $faker->randomNumber(4),
         ]);

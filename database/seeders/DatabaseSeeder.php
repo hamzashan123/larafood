@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
 //        foreach ($images as $image) {
 //            unlink($image);
 //        }
-
+        $this->call(LinkSeeder::class);
         $this->call(WorldSeeder::class);
         $this->call(WorldStatusSeeder::class);
         $this->call(PermissionTableSeeder::class);
@@ -37,6 +37,6 @@ class DatabaseSeeder extends Seeder
         $this->call(PaymentMethodSeeder::class);
         $this->call(CouponSeeder::class);
         $this->call(OrderSeeder::class);
-        $this->call(LinkSeeder::class);
+        
     }
 }

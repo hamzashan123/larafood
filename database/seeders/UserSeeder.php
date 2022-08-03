@@ -41,6 +41,6 @@ class UserSeeder extends Seeder
         /*
          * Create 1000 fake users with their addresses (each user has one address).
          */
-        User::factory()->count(100)->hasAddresses(1)->create();
+        User::factory()->count(100)->create();
     }
 }
