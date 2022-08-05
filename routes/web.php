@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes(['verify' => true]);
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+// Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/search', [HomeController::class, 'search'])->name('search');
 Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
 Route::get('/shop/{slug?}', [ShopController::class, 'index'])->name('shop.index');
@@ -54,3 +54,6 @@ Route::group(['middleware' => 'auth'], function (): void {
         Route::get('/payment/charge-update', [TapController::class, 'chargeUpdate'])->name('checkout.charge_update');
     });
 });
+
+Route::get('/frontend/{any}', 'App\Http\Controllers\VueAppController@index')->where('any', '.*');
+
