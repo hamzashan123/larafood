@@ -55,5 +55,5 @@ Route::group(['middleware' => 'auth'], function (): void {
     });
 });
 
-Route::get('/frontend/{any}', 'App\Http\Controllers\VueAppController@index')->where('any', '.*');
+Route::get('/{any}', 'App\Http\Controllers\VueAppController@index')->where('any', '.*');
 
