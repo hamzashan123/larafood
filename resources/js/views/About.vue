@@ -1,3 +1,13 @@
 <template>
-  <p>About page!</p>
+  <p>About</p>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
