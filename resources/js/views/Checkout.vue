@@ -51,7 +51,7 @@
                         <h5 class="title">Your order</h5>
                         <div class="order-product">
                             <div class="thumb">
-                                <img src="assets/img/widget/01.png" alt="img">
+                                <img src="/v-assets/img/widget/01.png" alt="img">
                             </div>
                             <div class="details">
                                 <h6>All Season Gulliver Pizza</h6>
@@ -75,7 +75,7 @@
                                         </label>
                                     </div>
                                     <div class="details">
-                                        <h6>Credit Cart <img src="assets/img/icon/peyment-card.png" alt="img"></h6>
+                                        <h6>Credit Cart <img src="/v-assets/img/icon/peyment-card.png" alt="img"></h6>
                                         <p>Pay with visa, Anex, MasterCard, Maestro,Discover and many other credit and debit credit vai paypal</p>
                                     </div>
                                 </li>
@@ -86,7 +86,7 @@
                                         </label>
                                     </div>
                                     <div class="details">
-                                        <h6>PayPal <img src="assets/img/icon/paypal-card.png" alt="img"></h6>
+                                        <h6>PayPal <img src="/v-assets/img/icon/paypal-card.png" alt="img"></h6>
                                         <p>Pay easily, fast and secure with PayPal.</p>
                                     </div>
                                 </li>

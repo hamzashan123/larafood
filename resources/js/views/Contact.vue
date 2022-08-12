@@ -8,19 +8,19 @@
                     <div class="col-lg-6">
                         <ul class="contact_info_list">
                             <li class="single-info-item">
-                                <img src="assets/img/icon/location.png" alt="icon">
+                                <img src="/v-assets/img/icon/location.png" alt="icon">
                                 <div class="details">
                                     4920 Trails End Road Ft  United States, FL 33311
                                 </div>
                             </li>
                             <li class="single-info-item">
-                                <img src="assets/img/icon/envelope.png" alt="icon">
+                                <img src="/v-assets/img/icon/envelope.png" alt="icon">
                                 <div class="details">
                                     ordernow@foodka.com
                                 </div>
                             </li>
                             <li class="single-info-item">
-                                <img src="assets/img/icon/phone.png" alt="icon">
+                                <img src="/v-assets/img/icon/phone.png" alt="icon">
                                 <div class="details">
                                     +997 509 153 849
                                 </div>

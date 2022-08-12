@@ -1,6 +1,6 @@
 <template>
   <!-- product Area Start-->
-    <section class="product-area pd-bottom-90">
+    <section class="product-area pd-bottom-90 pt-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -8,7 +8,7 @@
                         <h3 class="sub-title">Our signature</h3>
                         <h2 class="title">Delicious Deals for Delicious Meals</h2>
                     </div>
-                    <ul class="product-nav style-2 nav nav-pills" id="pills-tab" role="tablist">
+                    <ul class="product-nav  nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <button class="nav-link active" id="pills-ramen-tab" data-bs-toggle="pill" data-bs-target="#pills-ramen" type="button" role="tab" aria-controls="pills-ramen" aria-selected="true"><img src="/v-assets/img/category/1.png" alt="img">Ramen</button>
                         </li>
@@ -34,7 +34,7 @@
                 <div class="tab-pane fade show active" id="pills-ramen" role="tabpanel" aria-labelledby="pills-ramen-tab">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -62,7 +62,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -174,7 +174,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -202,7 +202,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -262,7 +262,7 @@
                 <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
                     <div class="row justify-content-center">
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -290,7 +290,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -318,7 +318,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -346,7 +346,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -378,7 +378,7 @@
                 <div class="tab-pane fade" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -406,7 +406,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -434,7 +434,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -462,7 +462,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -494,7 +494,7 @@
                 <div class="tab-pane fade" id="pills-french-fry" role="tabpanel" aria-labelledby="pills-french-fry-tab">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -522,7 +522,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -550,7 +550,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -578,7 +578,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -610,7 +610,7 @@
                 <div class="tab-pane fade" id="pills-fast-food" role="tabpanel" aria-labelledby="pills-fast-food-tab">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -638,7 +638,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -666,7 +666,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -694,7 +694,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -726,7 +726,7 @@
                 <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -754,7 +754,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -782,7 +782,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
@@ -810,7 +810,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="single-item-wrap style-2">
+                            <div class="single-item-wrap ">
                                 <div class="thumb">
                                     <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>

@@ -23,7 +23,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-close-btn"><a href="#"><i class="ri-close-line"></i></a></td>
-                                    <th scope="row"><img src="assets/img/widget/01.png" alt="img"></th>
+                                    <th scope="row"><img src="/v-assets/img/widget/01.png" alt="img"></th>
                                     <td colspan="2" class="item-name">
                                         <div class="details">
                                             <h5>All Season Gulliver Pizza</h5>
