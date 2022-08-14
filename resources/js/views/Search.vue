@@ -1,21 +1,21 @@
 <template>
 <div>
     <SubpageBanner />
-    <ProductsTab />
-    <ProductsTab />
-    <ProductsTab />
+    <FoodsTab />
+    <FoodsTab />
+    <FoodsTab />
 </div>
 
 </template>
 
 <script>
     import SubpageBanner from '@comp/partials/SubpageBanner.vue'
-    import ProductsTab from '@comp/partials/ProductsTab.vue'
+    import FoodsTab from '@comp/partials/FoodsTab.vue'
 
 export default {
     components: {
         SubpageBanner,
-        ProductsTab,
+        FoodsTab,
     }
 
 }

@@ -4,24 +4,24 @@
 
         <HomeBanner />
 
-        <ProductsTab />
+        <FoodsTab />
 
         <HomeAbout />
 
-        <ProductsTab />
+        <FoodsTab />
 
     </div>
 </template>
 
 <script>
     import HomeBanner from '@comp/partials/HomeBanner.vue'
-    import ProductsTab from '@comp/partials/ProductsTab.vue'
+    import FoodsTab from '@comp/partials/FoodsTab.vue'
     import HomeAbout from '@comp/partials/HomeAbout.vue'
 
     export default {
         components: {
             HomeBanner,
-            ProductsTab,
+            FoodsTab,
             HomeAbout,
         }
 

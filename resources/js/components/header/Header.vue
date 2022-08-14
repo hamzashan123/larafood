@@ -30,6 +30,7 @@ import Navigation from '@comp/partials/Navigation.vue'
 import Logo from '@comp/partials/Logo.vue'
 import RightNavMobile from '../partials/RightNavMobile.vue'
 import RightNavDesktop from '../partials/RightNavDesktop.vue'
+
     export default {
         components: {
             Navigation,

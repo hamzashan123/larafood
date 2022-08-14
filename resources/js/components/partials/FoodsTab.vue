@@ -36,11 +36,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Double Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -64,11 +64,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Gulliver Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Gulliver Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -92,11 +92,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Cheese Momos</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Cheese Momos </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -112,7 +112,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -120,11 +120,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Patty Buns Burgers</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Patty Buns Burgers</router-link> </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -140,7 +140,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -148,11 +148,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Margherita Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Margherita Pizza </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -168,7 +168,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -176,11 +176,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Maxican Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Maxican Pizza </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -204,11 +204,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Garlic Chicken Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Garlic Chicken </router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -224,7 +224,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -232,11 +232,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">BBQ Chicken Pizza </a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> BBQ Chicken Pizza</router-link> </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -252,7 +252,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -264,11 +264,11 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Margherita Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Margherita Pizza </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -284,7 +284,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -292,11 +292,11 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Maxican Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Maxican Pizza </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -312,7 +312,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -320,11 +320,11 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Garlic Chicken Pizza</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Garlic Chicken Pizza</router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -340,7 +340,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -348,11 +348,11 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">BBQ Chicken Pizza </a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> BBQ Chicken Pizza</router-link>   </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -368,7 +368,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -380,11 +380,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Double Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -400,7 +400,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -408,11 +408,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Gulliver Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Gulliver Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -428,7 +428,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -436,11 +436,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Cheese Momos</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Cheese Momos </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -456,7 +456,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -464,11 +464,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Patty Buns Burgers</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Patty Buns </router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -484,7 +484,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -496,11 +496,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Double Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -516,7 +516,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -524,11 +524,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Gulliver Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Gulliver Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -544,7 +544,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -552,11 +552,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Cheese Momos</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Cheese Momos </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -572,7 +572,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -580,11 +580,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Patty Buns Burgers</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Patty Buns </router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -600,7 +600,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -612,11 +612,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Double Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -632,7 +632,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -640,11 +640,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Gulliver Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Gulliver Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -660,7 +660,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -668,11 +668,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Cheese Momos</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Cheese Momos </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -688,7 +688,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -696,11 +696,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Patty Buns Burgers</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Patty Buns </router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -716,7 +716,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -728,11 +728,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Double Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -748,7 +748,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -756,11 +756,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/GIK44/primary/2_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Gulliver Burger</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Gulliver Burger </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -776,7 +776,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -784,11 +784,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Cheese Momos</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Cheese Momos </router-link></h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -804,7 +804,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -812,11 +812,11 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
-                                    <h5><a href="single-product.html">Patty Buns Burgers</a></h5>
+                                    <h5><router-link :to="{ name: 'food-detail'}"> Patty Buns </router-link>  </h5>
                                     <div class="wrap-footer">
                                         <div class="rating">
                                             4.9
@@ -832,7 +832,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>

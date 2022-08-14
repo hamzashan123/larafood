@@ -10,6 +10,8 @@ import Contact from '@views/Contact.vue'
 import Cart from '@views/Cart.vue'
 import Checkout from '@views/Checkout.vue'
 import Search from '@views/Search.vue'
+import FoodDetail from '@views/FoodDetail.vue'
+import MealDetail from '@views/MealDetail.vue'
 
 const router = new VueRouter({
     mode: 'history',
@@ -26,6 +28,16 @@ const router = new VueRouter({
             path: '/meals-plan',
             name: 'meals-plan',
             component: MealsPlan,
+        },
+        {
+            path: '/meals-plan/meal-detail',
+            name: 'meal-detail',
+            component: MealDetail,
+        },
+        {
+            path: '/food-detail/',
+            name: 'food-detail',
+            component: FoodDetail,
         },
         {
             path: '/about',

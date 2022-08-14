@@ -13,11 +13,12 @@
                 </router-link>
             </li>
             <li class="phone-contact">
-                 <router-link :to="{ name: 'cart' }">
-
+                 <!-- <router-link :to="{ name: 'cart' }"> -->
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >
                     <i class="ri-login-box-line ri-xl"></i>
                     Login
-                </router-link>
+                    </a>
+                <!-- </router-link> -->
 
             </li>
         </ul>
