@@ -3440,7 +3440,7 @@ ul.side-navbar-items li a:hover {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  width: 75%;
+  /* width: 75%; */
   margin: auto;
   padding-bottom: 60px;
 }

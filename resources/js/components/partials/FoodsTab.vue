@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +312,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -340,7 +340,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -368,7 +368,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +400,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -428,7 +428,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -456,7 +456,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +484,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -516,7 +516,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -544,7 +544,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +572,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -600,7 +600,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -632,7 +632,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -660,7 +660,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -688,7 +688,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -716,7 +716,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -748,7 +748,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -776,7 +776,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -804,7 +804,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -832,7 +832,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <h6 class="price">$17.00</h6>
-                                        <a class="btn btn-secondary" href="single-product.html">Add to cart <i class="ri-add-line"></i></a>
+                                        <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
                                     </div>
                                 </div>
                             </div>

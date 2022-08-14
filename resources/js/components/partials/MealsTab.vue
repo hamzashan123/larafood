@@ -37,13 +37,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,13 +62,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -87,13 +87,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,13 +112,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -137,13 +137,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -162,13 +162,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -187,13 +187,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -212,13 +212,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -241,13 +241,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -266,13 +266,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -291,13 +291,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -316,13 +316,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -345,13 +345,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -370,13 +370,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -395,13 +395,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -420,13 +420,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -449,13 +449,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -474,13 +474,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -499,13 +499,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -524,13 +524,13 @@
                                             <i class="ri-price-tag-3-fill"></i>Veg and Non Veg
                                         </a>
                                     </span>
-                                    <h5 class="mt-0"><a href="blog-details.html">Indua Thali</a></h5>
+                                    <h5 class="mt-0"><a href="/meals-plan/meal-detail">Indua Thali</a></h5>
                                     <div class="wrap-hover-area">
                                         <p> Some details about burger
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
+                                        <a class="link-btn" href="/meals-plan/meal-detail">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
