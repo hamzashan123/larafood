@@ -43,7 +43,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +218,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +247,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -297,7 +297,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -322,7 +322,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -351,7 +351,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +376,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -401,7 +401,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -426,7 +426,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -480,7 +480,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -505,7 +505,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
@@ -530,7 +530,7 @@
                                         </p>
                                         <p> Starting from $12
                                         </p>
-                                        <a class="link-btn" href="blog-details.html">Read More</a>
+                                        <a class="link-btn" href="blog-details.html">Subscribe</a>
                                     </div>
                                 </div>
                             </div>

@@ -1,6 +1,8 @@
 <template>
   <div class="logo">
-        <a class="main-logo" :to="{ name: 'home' }"><img src="/v-assets/img/home-2/logo.png" alt="img"></a>
+        <router-link class="main-logo" :to="{ name: 'home' }">
+            <img src="/v-assets/img/home-2/logo.png" alt="img">
+        </router-link>
     </div>
 </template>
 

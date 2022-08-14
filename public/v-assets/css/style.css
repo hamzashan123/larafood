@@ -751,7 +751,7 @@ ul {
   background-size: 108% 179%;
 }
 .breadcrumb-area .banner-inner {
-  padding: 150px 0 100px;
+  padding: 100px 0 60px;
 }
 .breadcrumb-area .banner-inner h1 {
   margin-bottom: 5px;
@@ -3052,9 +3052,9 @@ ul.side-navbar-items li a:hover {
 }
 .single-item-wrap .btn-area .btn {
   border-radius: 30px 30px 0 0;
-  padding: 0 90px;
-  height: 64px;
-  line-height: 64px;
+  padding: 0 50px;
+  height: 60px;
+  line-height: 60px;
 }
 .single-item-wrap.style-2 {
   padding: 25px 29px 30px;
@@ -3152,7 +3152,7 @@ ul.side-navbar-items li a:hover {
   padding-right: 0;
 }
 .product-nav .nav-item .nav-link {
-  height: 80px;
+  height: 60px;
   background-color: #fff;
   border-radius: 50px;
   width: 100%;

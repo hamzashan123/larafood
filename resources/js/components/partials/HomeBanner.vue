@@ -11,10 +11,10 @@
             <div class="row">
                 <div class="col-lg-6 col-md-8 align-self-center">
                     <div class="banner-inner">
-                        <h3>Japanese Test</h3>
+                        <h3>Meals Plan</h3>
                         <h1>Different spice for a Different taste</h1>
                         <p>You need not only Just Food Stalls with Persons but also specialized equipment  start the Fast Food</p>
-                        <a class="btn btn-secondary" href="shop.html">GET IT NOW</a>
+                        <router-link class="btn btn-secondary" :to="{ name: 'meals-plan' }">GET IT NOW</router-link>
                     </div>
                 </div>
             </div>
