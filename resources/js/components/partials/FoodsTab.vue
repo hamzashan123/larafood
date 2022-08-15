@@ -1,6 +1,6 @@
 <template>
   <!-- product Area Start-->
-    <section class="product-area pd-bottom-90 pt-5">
+    <section class="product-area pd-bottom-90 pt-5 foods-tab">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -36,7 +36,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -92,7 +92,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://travelfoodatlas.com/wp-content/uploads/2020/12/gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -120,7 +120,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://www.chefspencil.com/wp-content/uploads/Gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -148,7 +148,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://photos.smugmug.com/Indonesia-2016/i-9hLVhWh/0/X3/indonesian-sate-ayam-1-X3.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -176,7 +176,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://factsofindonesia.com/wp-content/uploads/2021/03/healthier-indonesian-food.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -204,7 +204,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-015-1024x640.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -232,7 +232,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
+                                    <img class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Indonesian_Food.png" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -264,7 +264,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1241/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://photos.smugmug.com/Indonesia-2016/i-9hLVhWh/0/X3/indonesian-sate-ayam-1-X3.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -292,7 +292,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6372/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://factsofindonesia.com/wp-content/uploads/2021/03/healthier-indonesian-food.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -320,7 +320,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6710/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-015-1024x640.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -348,7 +348,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/HPS79/primary/1_1.jpg" alt="img">
+                                    <img class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Indonesian_Food.png" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -380,7 +380,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -436,7 +436,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://travelfoodatlas.com/wp-content/uploads/2020/12/gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -464,7 +464,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://www.chefspencil.com/wp-content/uploads/Gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -496,7 +496,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -552,7 +552,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://travelfoodatlas.com/wp-content/uploads/2020/12/gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -580,7 +580,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://www.chefspencil.com/wp-content/uploads/Gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -612,7 +612,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -668,7 +668,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://travelfoodatlas.com/wp-content/uploads/2020/12/gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -696,7 +696,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://www.chefspencil.com/wp-content/uploads/Gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -728,7 +728,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6283/primary/2_1.jpg" alt="img">
+                                    <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -784,7 +784,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/EAT6862/primary/3_1.jpg" alt="img">
+                                    <img class="rounded" src="https://travelfoodatlas.com/wp-content/uploads/2020/12/gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">
@@ -812,7 +812,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-item-wrap ">
                                 <div class="thumb">
-                                    <img class="rounded" src="https://res.cloudinary.com/curefoods/image/upload/w_295,ar_1.33,fl_progressive,f_auto,q_auto:eco/dpr_2/image/singles/eat/meals/COM1244/primary/4_1.jpg" alt="img">
+                                    <img class="rounded" src="https://www.chefspencil.com/wp-content/uploads/Gudeg.jpg" alt="img">
                                     <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
                                 </div>
                                 <div class="wrap-details">

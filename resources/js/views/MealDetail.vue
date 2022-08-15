@@ -1,14 +1,14 @@
 <template>
     <!-- shop-details Area Start-->
-    <div class="shop-details-area pd-top-100">
+    <div class="shop-details-area pd-top-100 meal-detail">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="ticy-product">
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
                                 <div class="slider-ite">
-                                    <img src="https://ik.imagekit.io/curefoods/tr:w-485,ar-485:605,c_fit//image/packs/eat/INDIAN_THALI_VEG_NVEG_LUNCH/4.jpg" alt="item">
+                                    <img class="rounded" src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" alt="item">
                                 </div>
                             </div>
                         </div>
@@ -28,61 +28,104 @@
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <p class="mb-4">Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot </p>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <img class="w-100" src="/v-assets/img/blog/single-2.png" alt="img">
+                                <div class="weekly-plan">
+                                    <div class="plan-images">
+                                        <div class="plan-image active">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">MON</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">TUE</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">WED</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">THU</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">FRI</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">SAT</h6>
+                                        </div>
+                                        <div class="plan-image">
+                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center">SUN</h6>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <img class="w-100" src="/v-assets/img/blog/single-3.png" alt="img">
+                                    <div class="plan-content">
+                                        <h6 class="plan-content-day">MON</h6>
+                                        <h5>Kadhai Paneer, Soya Masala Sabzi, Roti Thali</h5>
+                                        <p>A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.</p>
                                     </div>
                                 </div>
-                                <p class="mt-4">One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil. Popular legend relates that it was named for Queen Margherita, wife of Umberto I, who was said to have liked its mild fresh flavour and to have also noted that its topping colours—green, white, and red—were those of the Italian flag.</p>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                <h6 class="title">About Product</h6>
-                                <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centu but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of lorem Ipsum.</p>
+
                                 <div class="quick-view mt-4">
-                                    <h6 class="title mb-4">Quick View</h6>
+                                    <!-- <h6 class="title mb-4">Quick View</h6> -->
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
-                                                <img src="/v-assets/img/icon/1.png" alt="img">
-                                                Fresh food
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
-                                                <img src="/v-assets/img/icon/2.png" alt="img">
-                                                Fast Delivery
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
+                                        <div class="col-12">
                                             <div class="single-about-wrap style-2">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
-                                                Quality Maintain
+                                                Meals are delivered every day at the chosen address and time
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-12">
                                             <div class="single-about-wrap style-2">
-                                                <img src="/v-assets/img/icon/4.png" alt="img">
-                                                24/7 Service
+                                                <img src="/v-assets/img/icon/3.png" alt="img">
+                                                Meals are delivered every day at the chosen address and time
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/3.png" alt="img">
+                                                Meals are delivered every day at the chosen address and time
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/3.png" alt="img">
+                                                Meals are delivered every day at the chosen address and time
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <div class="comment-area">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="/v-assets/img/blog/comment.png" alt="img">
+                                <div class="quick-view mt-4">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/1.png" alt="img">
+                                                Save upto 25% with no delivery charges
+                                            </div>
                                         </div>
-                                        <div class="media-body">
-                                            <h6>Haslida heris</h6>
-                                            <span>20 Feb 2020 at 4:00 pm</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                        <div class="col-md-6">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/2.png" alt="img">
+                                                Flexible plan: change / cancel anytime
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/3.png" alt="img">
+                                                Healthy homely meals everyday
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-about-wrap style-2">
+                                                <img src="/v-assets/img/icon/4.png" alt="img">
+                                                Cancel any time and get a refund
+
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -90,17 +133,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="shop-item-details">
-                        <h2 class="entry-title">Indian Thali Veg & Non-Veg</h2>
+                        <h2 class="entry-title">Sambal Satay Gado-gado</h2>
                         <div class="row">
                             <p clas s="mt-4">Here is the epitome of cultural exploration of veg and non veg on a plate. A complete meal in itself, our Indian thalis come with goodness of taste and wholesomeness together.</p>
-                            <div class="col-lg-6 order-lg-last align-self-center text-end">
-                                <button type="submit" class="btn btn-secondary">ADD</button>
+                            <div class="pd-container d-flex">
+                                <div class="price-container">
+                                    <div class="sale-price">
+                                        <h5 class="price text-muted text-decoration-line-through">$37.00</h5>
+                                    </div>
+                                    <div class="regular-price">
+                                        <h4 class="price">$27.00</h4>
+                                    </div>
+                                    <div class="for-days">
+                                        <p>For 5 days</p>
+                                    </div>
+                                </div>
+                                <div class="duration-container">
+                                    <div class="durations">
+                                        <div class="duration">Weekly</div>
+                                        <div class="duration">Monthly</div>
+                                    </div>
+                                    <div class="include-switch d-flex">
+                                        <input type="checkbox" name="" id="">
+                                        <p>Include weekend</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6 align-self-center">
-                                <h4 class="price">$27.00</h4>
-                            </div>
+
+                            <button type="submit" class="btn btn-secondary">Sibscribe Meal Plan</button>
 
                         </div>
                     </div>

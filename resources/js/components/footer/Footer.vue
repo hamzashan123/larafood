@@ -19,13 +19,13 @@
                                 <li class="single-info-item">
                                     <img src="/v-assets/img/icon/envelope.png" alt="icon">
                                     <div class="details">
-                                        ordernow@foodka.com
+                                        ordernow@indofood.com
                                     </div>
                                 </li>
                                 <li class="single-info-item">
                                     <img src="/v-assets/img/icon/phone.png" alt="icon">
                                     <div class="details">
-                                        +997 509 153 849
+                                        +1 509 153 4849
                                     </div>
                                 </li>
                             </ul>
@@ -35,12 +35,12 @@
                         <div class="footer-widget widget widget_link">
                             <h4 class="widget-title">Hot Menu</h4>
                             <ul>
-                                <li><a href="menu-list.html">Burger King Whopper</a></li>
-                                <li><a href="menu-list.html">Five Guys Cheeseburger</a></li>
-                                <li><a href="menu-list.html">KFC Original Recipe Chicken</a></li>
-                                <li><a href="menu-list.html">Wendy's Frosty</a></li>
-                                <li><a href="menu-list.html">McDonald's Happy Meal</a></li>
-                                <li><a href="menu-list.html">Domino's Pepperoni Pizza</a></li>
+                                <li><a href="#">Burger King Whopper</a></li>
+                                <li><a href="#">Five Guys Cheeseburger</a></li>
+                                <li><a href="#">KFC Original Recipe Chicken</a></li>
+                                <li><a href="#">Wendy's Frosty</a></li>
+                                <li><a href="#">McDonald's Happy Meal</a></li>
+                                <li><a href="#">Domino's Pepperoni Pizza</a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 text-md-start text-center">
                         <div class="copyright-area">
-                            <p>© 2021 Foodka. All Rights Reserved by Themefie</p>
+                            <p>© 2022 indofood. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
