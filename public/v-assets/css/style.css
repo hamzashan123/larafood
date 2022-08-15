@@ -3328,6 +3328,19 @@ ul.side-navbar-items li a:hover {
     min-height: 180px;
 }
 
+.pd-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .price-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3343,7 +3356,6 @@ ul.side-navbar-items li a:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 28px;
     font-family: BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     background-color: #F7D8EA;
     border-radius: 5px;
@@ -3400,6 +3412,9 @@ ul.side-navbar-items li a:hover {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+.duration.active {
+    background-color: #F7D8EA;
 }
 /*---------------------------------------------------
 	Blog style

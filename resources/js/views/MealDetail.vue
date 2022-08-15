@@ -1,6 +1,6 @@
 <template>
     <!-- shop-details Area Start-->
-    <div class="shop-details-area pd-top-100 meal-detail">
+    <div class="shop-details-area pd-top-100 pd-bottom-60 meal-detail">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
@@ -72,25 +72,25 @@
                                     <!-- <h6 class="title mb-4">Quick View</h6> -->
                                     <div class="row">
                                         <div class="col-12">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
                                                 Meals are delivered every day at the chosen address and time
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
                                                 Meals are delivered every day at the chosen address and time
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
                                                 Meals are delivered every day at the chosen address and time
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
                                                 Meals are delivered every day at the chosen address and time
                                             </div>
@@ -102,27 +102,27 @@
                                 <div class="quick-view mt-4">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="single-about-wrap">
                                                 <img src="/v-assets/img/icon/1.png" alt="img">
-                                                Save upto 25% with no delivery charges
+                                                Fresh foods
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="single-about-wrap">
                                                 <img src="/v-assets/img/icon/2.png" alt="img">
-                                                Flexible plan: change / cancel anytime
+                                                Fast delivery
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="single-about-wrap">
                                                 <img src="/v-assets/img/icon/3.png" alt="img">
-                                                Healthy homely meals everyday
+                                                Quality Maintain
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="single-about-wrap style-2">
+                                            <div class="single-about-wrap">
                                                 <img src="/v-assets/img/icon/4.png" alt="img">
-                                                Cancel any time and get a refund
+                                                24/7 Service
 
 
                                             </div>
@@ -141,23 +141,27 @@
                             <div class="pd-container d-flex">
                                 <div class="price-container">
                                     <div class="sale-price">
-                                        <h5 class="price text-muted text-decoration-line-through">$37.00</h5>
+                                        <h6 class="price text-muted text-decoration-line-through">$37.00</h6>
                                     </div>
                                     <div class="regular-price">
                                         <h4 class="price">$27.00</h4>
                                     </div>
                                     <div class="for-days">
-                                        <p>For 5 days</p>
+                                        For 5 days
                                     </div>
                                 </div>
                                 <div class="duration-container">
                                     <div class="durations">
-                                        <div class="duration">Weekly</div>
+                                        <div class="duration active">Weekly</div>
                                         <div class="duration">Monthly</div>
                                     </div>
-                                    <div class="include-switch d-flex">
-                                        <input type="checkbox" name="" id="">
-                                        <p>Include weekend</p>
+                                    <div class="include-switch">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                               Include Weekends
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -175,6 +179,13 @@
 
 <script>
 export default {
+    data() {
+        return {
+            weeklyPlans: {
+
+            }
+        }
+    }
 
 }
 </script>
