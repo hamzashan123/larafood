@@ -8,7 +8,7 @@
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slider">
                                 <div class="slider-item">
-                                    <img src="https://themefie.com/html/foodka/assets/img/product/pizza/2.png" alt="item">
+                                    <img src="https://scontent.ccdn.cloud/image/vivitravels-en/4c482629-715a-4efc-84bd-917946362a53/maxw-960.jpg" alt="item">
                                 </div>
                                 <!-- <div class="slider-item">
                                     <img src="https://themefie.com/html/foodka/assets/img/product/pizza/1.png" alt="item">
