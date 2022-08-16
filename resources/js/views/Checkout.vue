@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SubpageBanner />
+        <SubpageBanner title="s" subtitle="s"/>
 
         <!-- checkout area start -->
     <div class="checkout-area pd-top-120 pd-bottom-120">

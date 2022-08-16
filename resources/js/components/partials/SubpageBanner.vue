@@ -8,15 +8,23 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 align-self-center">
                     <div class="banner-inner text-center">
-                        <h3>Choose you items
-                        </h3>
-                        <h1>OUR MENU</h1>
-                        <nav aria-label="breadcrumb">
+                        <h3>{{ subtitle }}</h3>
+                        <h1> {{ title }} </h1>
+                        <!-- <nav aria-label="breadcrumb">
                             <ul class="breadcrumb">
                               <li class="breadcrumb-item"><a href="home.html">Home</a></li>
                               <li class="breadcrumb-item active" aria-current="page">Menu Tab</li>
                             </ul>
-                        </nav>
+                        </nav> -->
+                    </div>
+
+                    <div class="widget widget_search" v-if="search">
+                        <form class="search-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Search your itmes">
+                            </div>
+                            <button class="submit-btn" type="submit"><i class="ri-search-line"></i></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -27,6 +35,7 @@
 
 <script>
 export default {
+    props: ['title', 'subtitle', 'search']
 
 }
 </script>

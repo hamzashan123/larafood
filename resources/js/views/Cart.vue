@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SubpageBanner />
+        <SubpageBanner title="Cart" subtitle="Best meal to add"/>
 
         <!-- cart area start -->
     <div class="cart-area pd-top-120 pd-bottom-120">
@@ -77,7 +77,7 @@
                                 <li class="total">Total<span>$50.00</span></li>
                             </ul>
                         </div>
-                        <a class="btn btn-secondary w-100" href="#"> PROCEED TO CHECKOUT</a>
+                        <router-link class="btn btn-secondary w-100" :to="{ name: 'checkout' }"> PROCEED TO CHECKOUT </router-link>
                     </div>
                 </div>
             </div>
