@@ -7,21 +7,26 @@
         <Footer />
 
         <Backtotop />
-        <Modal />
+
+        <LoginModal />
+        <SignupModal />
+
     </div>
 </template>
 <script>
     import Header from '@comp/header/Header.vue'
     import Footer from '@comp/footer/Footer.vue'
     import Backtotop from '@comp/partials/Backtotop.vue'
-    import Modal from '@comp/partials/Modal.vue'
+    import LoginModal from '@comp/partials/LoginModal.vue'
+    import SignupModal from '@comp/partials/SignupModal.vue'
 
     export default {
         components: {
             Header,
             Footer,
             Backtotop,
-            Modal,
+            LoginModal,
+            SignupModal,
         }
 
     }

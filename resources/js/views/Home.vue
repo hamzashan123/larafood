@@ -2,6 +2,7 @@
     <div>
         <Header></Header>
 
+
         <HomeBanner />
 
         <FoodsTab />

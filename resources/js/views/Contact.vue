@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SubpageBanner title="s" subtitle="s"/>
+        <SubpageBanner title="Contact" subtitle="Contact via email to phone"/>
     <!-- contact start -->
         <div class="contact-area pd-top-120 pd-bottom-100">
             <div class="container">
