@@ -8,7 +8,7 @@
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
                                 <div class="slider-ite">
-                                    <img class="rounded" src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" alt="item">
+                                    <img class="rounded" :src="weeklyPlanSelected ? weeklyPlans[weeklyPlanSelected].image : 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg'" alt="item">
                                 </div>
                             </div>
                         </div>
@@ -30,39 +30,17 @@
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <div class="weekly-plan">
                                     <div class="plan-images">
-                                        <div class="plan-image active">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">MON</h6>
+
+                                        <div class="plan-image" :class="weeklyPlanSelected == index ? 'active' : ''" v-for="(weeklyPlan, index) in weeklyPlans" :key="index" @click="weeklyPlanSelected = index">
+                                            <img :src="weeklyPlan.image" class="rounded " alt="img">
+                                            <h6 class="plan-image-day text-center text-uppercase">{{ weeklyPlan.day }}</h6>
                                         </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">TUE</h6>
-                                        </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">WED</h6>
-                                        </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">THU</h6>
-                                        </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">FRI</h6>
-                                        </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">SAT</h6>
-                                        </div>
-                                        <div class="plan-image">
-                                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center">SUN</h6>
-                                        </div>
+
                                     </div>
                                     <div class="plan-content">
-                                        <h6 class="plan-content-day">MON</h6>
-                                        <h5>Kadhai Paneer, Soya Masala Sabzi, Roti Thali</h5>
-                                        <p>A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.</p>
+                                        <h6 class="plan-content-day">{{ weeklyPlans[weeklyPlanSelected].day }}</h6>
+                                        <h5>{{ weeklyPlans[weeklyPlanSelected].mealTitle }}</h5>
+                                        <p>{{ weeklyPlans[weeklyPlanSelected].mealDescription }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -156,8 +134,8 @@
                                         <div class="duration">Monthly</div>
                                     </div>
                                     <div class="include-switch">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <div class="">
+                                            <input class="" type="checkbox" value="" id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
                                                Include Weekends
                                             </label>
@@ -181,7 +159,50 @@
 export default {
     data() {
         return {
+            weeklyPlanSelected: 0,
             weeklyPlans: {
+                0: {
+                    image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg',
+                    day: 'Mon',
+                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
+                },
+                1: {
+                    image: 'https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-007-1024x640.jpg.webp',
+                    day: 'Tue',
+                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole whMethi roti / Plain roti.'
+                },
+                3: {
+                    image: 'https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-004-1024x640.jpg',
+                    day: 'Wed',
+                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
+                },
+                4: {
+                    image: 'https://quillstorage.blob.core.windows.net/tiqon-resource/business/9CB41982-6744-4855-AA1B-5B554EB792E6/article/2AEB71AB-35C6-49A6-A2E8-F9D68AD1DAB0/4AF83576-FC02-4FAA-909F-C110BEB77099.jpg',
+                    day: 'Thu',
+                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
+                },
+                5: {
+                    image: 'https://media.istockphoto.com/photos/ketupat-lebaran-the-traditional-celebratory-dish-of-rice-cake-soup-picture-id1022878300?k=20&m=1022878300&s=612x612&w=0&h=WgCIR1cOdne0LKXG6KUuu09WvhQuFbFELv_yJBwQvVc=',
+                    day: 'Fri',
+                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops o/ Plain roti.'
+                },
+                6: {
+                    image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg',
+                    day: 'Sat',
+                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
+                    mealDescription: 'A flavourful roti thali! er and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
+                },
+                7: {
+                    image: 'http://cdn.cnn.com/cnnnext/dam/assets/160222142607-indonesian-food-bebek-goreng-6558-1900px.jpg',
+                    day: 'Sun',
+                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
+                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: G roti / Plain roti.'
+                }
 
             }
         }
