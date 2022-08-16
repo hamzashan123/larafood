@@ -1,6 +1,7 @@
 
 <template>
-    <div class="nav-right-part nav-right-part-desktop">
+    <div>
+        <div class="nav-right-part nav-right-part-desktop">
         <ul>
             <li class="phone-contact">
                 <router-link :to="{ name: 'contact' }">
@@ -8,13 +9,16 @@
                 </router-link>
             </li>
             <li class="menu-cart">
-                <router-link :to="{ name: 'cart' }">
+                <a href="#" @click="cartOpen = !cartOpen ">
+                    <i class="ri-shopping-cart-line ri-xl"></i> <span>2</span>
+                </a>
+                <!-- <router-link :to="{ name: 'cart' }">
                     <i class="ri-shopping-cart-line ri-xl"></i> <span>1</span>
-                </router-link>
+                </router-link> -->
             </li>
             <li class="phone-contact">
                  <!-- <router-link :to="{ name: 'cart' }"> -->
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" >
                     <i class="ri-login-box-line ri-xl"></i>
                     Login
                     </a>
@@ -23,10 +27,24 @@
             </li>
         </ul>
     </div>
+    <MiniCart v-if="cartOpen"/>
+
+    </div>
 </template>
 
 <script>
-export default {};
+import MiniCart from './MiniCart.vue';
+
+export default {
+    components: {
+        MiniCart
+    },
+    data() {
+        return {
+            cartOpen: false,
+        }
+    }
+};
 </script>
 
 <style>

@@ -2,16 +2,16 @@
     <div>
         <div
             class="modal fade"
-            id="exampleModal"
+            :id="modalFor"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            :aria-labelledby="modalFor"
             aria-hidden="true"
         >
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-                            Modal title
+                        <h5 class="modal-title" :id="modalFor">
+                            {{ title }}
                         </h5>
                         <button
                             type="button"
@@ -20,18 +20,20 @@
                             aria-label="Close"
                         ></button>
                     </div>
-                    <div class="modal-body">...</div>
+                    <div class="modal-body">
+                        <slot name="modal-body"></slot>
+                    </div>
                     <div class="modal-footer">
-                        <button
+                        <slot name="modal-footer">
+
+                        </slot>
+                        <!-- <button
                             type="button"
                             class="btn btn-secondary"
                             data-bs-dismiss="modal"
-                        >
-                            Close
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                            Save changes
-                        </button>
+                            >
+                                Close
+                            </button> -->
                     </div>
                 </div>
             </div>
@@ -40,7 +42,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+    props: ['title', 'modal-for']
+};
 </script>
 
 <style>
