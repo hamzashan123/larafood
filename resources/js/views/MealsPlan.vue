@@ -1,6 +1,6 @@
 <template>
 <div>
-    <SubpageBanner />
+    <SubpageBanner title="Meals Plan" subtitle="Subscrbe to weekly or monthly plans"/>
     <MealsTab />
 </div>
 
