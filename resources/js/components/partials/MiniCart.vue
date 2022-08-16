@@ -8,7 +8,9 @@
   <hr>
   <ul>
     <li class='minicart--item'>
-      <div class='placeholder'></div>
+      <div class='placeholder'>
+        <img src="https://scontent.ccdn.cloud/image/vivitravels-en/4c482629-715a-4efc-84bd-917946362a53/maxw-120.jpg" alt="">
+      </div>
       <h1 class='title'>Title of Product 01</h1>
 
       <p class='size'>
@@ -41,13 +43,15 @@
     </li>
   </ul>
   <hr>
-  <div class='minicart--subtotal'>
+  <div class='minicart--subtotal clearfix '>
     <p class='minicart--subtotal-title'>Subtotal</p>
     <p class='minicart--subtotal-amount'>$270.00 USD</p>
   </div>
   <hr>
-  <router-link class="btn btn-secondary d-block mb-2" :to="{ name: 'cart' }">View Cart</router-link>
-  <router-link class="btn btn-primary d-block mb-2" :to="{ name: 'checkout' }">Checkout</router-link>
+  <div class="">
+    <router-link class="btn btn-secondary d-block mb-2" :to="{ name: 'cart' }">View Cart</router-link>
+    <router-link class="btn btn-primary d-block mb-2" :to="{ name: 'checkout' }">Checkout</router-link>
+  </div>
 
 </div>
 </template>
