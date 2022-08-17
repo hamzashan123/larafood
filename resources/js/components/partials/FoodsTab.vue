@@ -846,7 +846,24 @@
 </template>
 
 <script>
+
+import { mapGetters, mapActions } from "vuex";
+
 export default {
+    data() {
+        return {
+
+        }
+    },
+    computed: {
+        ...mapGetters({ foods: 'food/getFoods', isLoading: "listing/getIsLoading", })
+    },
+    methods: {
+        ...mapActions({ loadFoods: 'food/loadFoods' })
+    },
+    mounted() {
+        this.loadFoods()
+    }
 
 }
 </script>
