@@ -17,13 +17,13 @@
                     <div class="shop-tabs">
                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Upcomming Meals</button>
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <h6>Upcomming Meals</h6> </button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">How it works</button>
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><h6>How it works</h6></button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Why subscribe </button>
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><h6>Why subscribe </h6> </button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -38,7 +38,7 @@
 
                                     </div>
                                     <div class="plan-content">
-                                        <h6 class="plan-content-day">{{ weeklyPlans[weeklyPlanSelected].day }}</h6>
+                                        <h6 class="plan-content-day text-uppercase">{{ weeklyPlans[weeklyPlanSelected].day }}</h6>
                                         <h5>{{ weeklyPlans[weeklyPlanSelected].mealTitle }}</h5>
                                         <p>{{ weeklyPlans[weeklyPlanSelected].mealDescription }}</p>
                                     </div>
