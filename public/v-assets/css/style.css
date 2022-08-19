@@ -4936,3 +4936,24 @@ ul.side-navbar-items li a:hover {
 .home-3 .widget_link ul li span {
   color: var(--main-color);
 }
+
+
+/* hamza css */
+.single-item-wrap.style-2 {
+  background: white !important;
+  padding: 0px;
+}
+
+.single-item-wrap.style-2 .thumb img {
+  width: 100%;
+}
+
+
+
+.single-item-wrap .wrap-details {
+  padding: 20px;
+}
+
+section.breadcrumb-area {
+  margin-top: 65px !important;
+}
