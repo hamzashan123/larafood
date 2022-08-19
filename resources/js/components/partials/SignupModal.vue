@@ -33,7 +33,7 @@
             </div>
         </template>
         <template v-slot:modal-footer>
-            <a href="#" class="me-auto" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#loginModal" >Already have an account? </a>
+            <a href="#" class="me-auto" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#loginModal" > <h6>Already have an account?</h6> </a>
 
                 <button
                     type="button"

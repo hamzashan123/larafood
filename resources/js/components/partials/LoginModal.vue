@@ -23,7 +23,7 @@
         </template>
         <template v-slot:modal-footer>
 
-                <a href="#" class="me-auto" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#signupModal" > Create account </a>
+                <a href="#" class="me-auto" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#signupModal" > <h6>Create an account</h6> </a>
 
                 <button
                     type="button"

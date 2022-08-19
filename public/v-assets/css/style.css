@@ -45,12 +45,16 @@ Version: 1.0.0
   --main-color: rgb(206, 40, 41);
   --secondary-color: #fdc913;
   --main-color-opacity: 206, 40, 41;
+  /* --body-font: cursive, sans-serif; */
   --body-font: "Barlow", sans-serif;
-  --heading-font: "Barlow", sans-serif;
+  --heading-font: cursive, sans-serif;
   --paragraph-color: #5f5f5f;
   --heading-color: #292929;
-  --bebas-font: "Bebas Neue", cursive;
+  --bebas-font:  cursive;
   --satisfy-font: "Satisfy", cursive;
+/*
+  --bebas-font: "Bebas Neue", cursive;
+  --satisfy-font: "Satisfy", cursive; */
 }
 
 html {
@@ -3314,7 +3318,7 @@ ul.side-navbar-items li a:hover {
 }
 
 .weekly-plan .plan-image.active img {
-    border-color: var(--main-color);
+    border-color: var(var(--heading-color));
 }
 .weekly-plan .plan-image.active .plan-image-day {
     color: var(--main-color);

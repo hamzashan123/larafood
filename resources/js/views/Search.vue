@@ -4,21 +4,7 @@
 
     <div class="container mt-4 mb-4">
         <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <FoodCard />
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <FoodCard />
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <FoodCard />
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <FoodCard />
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <FoodCard />
-            </div>
+                <FoodCard v-for="one in 10" :key="one" />
         </div>
     </div>
 </div>
