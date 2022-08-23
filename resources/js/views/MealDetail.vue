@@ -8,7 +8,7 @@
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
                                 <div class="slider-ite">
-                                    <img class="rounded" :src="weeklyPlanSelected ? weeklyPlans[weeklyPlanSelected].image : 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg'" alt="item">
+                                    <img class="rounded" :src="weeklyPlanSelected ? weeklyPlans[weeklyPlanSelected].image : 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg'" alt="item">
                                 </div>
                             </div>
                         </div>
@@ -162,43 +162,43 @@ export default {
             weeklyPlanSelected: 0,
             weeklyPlans: {
                 0: {
-                    image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg',
                     day: 'Mon',
                     mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
                 },
                 1: {
-                    image: 'https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-007-1024x640.jpg.webp',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6708c070e7d41_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg',
                     day: 'Tue',
                     mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole whMethi roti / Plain roti.'
                 },
                 3: {
-                    image: 'https://nomadparadise.com/wp-content/uploads/2020/07/indonesian-food-004-1024x640.jpg',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b89b735739065897a4f_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg',
                     day: 'Wed',
                     mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
                 },
                 4: {
-                    image: 'https://quillstorage.blob.core.windows.net/tiqon-resource/business/9CB41982-6744-4855-AA1B-5B554EB792E6/article/2AEB71AB-35C6-49A6-A2E8-F9D68AD1DAB0/4AF83576-FC02-4FAA-909F-C110BEB77099.jpg',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b94f03e50f2e0d2b7f3_production-meal-image-bc1b24c8-f62a-4756-a40e-173a8b67a590.jpeg',
                     day: 'Thu',
                     mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
                 },
                 5: {
-                    image: 'https://media.istockphoto.com/photos/ketupat-lebaran-the-traditional-celebratory-dish-of-rice-cake-soup-picture-id1022878300?k=20&m=1022878300&s=612x612&w=0&h=WgCIR1cOdne0LKXG6KUuu09WvhQuFbFELv_yJBwQvVc=',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b9a85b43c3383a0a3b3_production-meal-image-ef64cbd3-cc91-4c5f-9865-b9ff0442572e.jpeg',
                     day: 'Fri',
                     mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops o/ Plain roti.'
                 },
                 6: {
-                    image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622207103/Indonesian-Food-Main/Indonesian-Food-Main.jpg',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/610640046931cb5d54bd5472_production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpeg',
                     day: 'Sat',
                     mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
                     mealDescription: 'A flavourful roti thali! er and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
                 },
                 7: {
-                    image: 'http://cdn.cnn.com/cnnnext/dam/assets/160222142607-indonesian-food-bebek-goreng-6558-1900px.jpg',
+                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg',
                     day: 'Sun',
                     mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
                     mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: G roti / Plain roti.'

@@ -3318,7 +3318,7 @@ ul.side-navbar-items li a:hover {
 }
 
 .weekly-plan .plan-image.active img {
-    border-color: var(var(--heading-color));
+    border-color: var(--heading-color);
 }
 .weekly-plan .plan-image.active .plan-image-day {
     color: var(--main-color);
@@ -3536,8 +3536,23 @@ ul.side-navbar-items li a:hover {
           transform: scale(1.05);
 }
 .meals-tab .single-blog-wrap .thumb img {
-    height: 350px;
+    height: 260px;
     object-fit: cover;
+}
+span.meal-features {
+    display: flex;
+    align-items: center;
+}
+.meal-details {
+    padding: 10px;
+
+}
+span.one-sep {
+    margin-right: 7px;
+    margin-left: 7px;
+    width: 1px;
+    height: 14px;
+    background-color: var(--main-color);
 }
 .single-blog-wrap:hover .wrap-details .wrap-hover-area {
   margin-bottom: 0;
