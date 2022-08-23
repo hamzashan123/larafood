@@ -4,25 +4,30 @@
 
         <HomeBanner />
 
-        <FoodsTab />
+        <MealsTab />
+
 
         <HomeAbout />
+        <MealSlider title="For You"/>
+        <MealSlider title="Vegs Items"/>
+        <MealSlider title="Non Veg Items"/>
 
-        <FoodsTab />
 
     </div>
 </template>
 
 <script>
     import HomeBanner from '@comp/partials/HomeBanner.vue'
-    import FoodsTab from '@comp/partials/FoodsTab.vue'
+    import MealsTab from '@comp/partials/MealsTab.vue'
     import HomeAbout from '@comp/partials/HomeAbout.vue'
+    import MealSlider from '@comp/partials/MealSlider.vue'
 
     export default {
         components: {
             HomeBanner,
-            FoodsTab,
+            MealsTab,
             HomeAbout,
+            MealSlider,
         }
 
     }

@@ -4,9 +4,9 @@
             <li class="current-menu-item">
                 <router-link :to="{ name: 'home' }" class="active">Home</router-link>
             </li>
-            <li class="current-menu-item">
+            <!-- <li class="current-menu-item">
                 <router-link :to="{ name: 'meals-plan' }">Meal Plans</router-link>
-            </li>
+            </li> -->
             <li>
                 <router-link :to="{ name: 'search' }">Search</router-link>
 
