@@ -1,17 +1,13 @@
 <template>
     <div>
         <Header />
-
         <HomeBanner />
-
         <MealsTab />
-
-
         <HomeAbout />
+
         <MealSlider title="For You"/>
         <MealSlider title="Vegs Items"/>
         <MealSlider title="Non Veg Items"/>
-
 
     </div>
 </template>
