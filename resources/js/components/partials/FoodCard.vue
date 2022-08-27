@@ -1,36 +1,37 @@
 <template>
 <div class="col-xl-3 col-lg-4 col-md-6">
-    <div class="single-item-wrap style-2">
-        <div class="thumb">
-            <img class="rounded" src="http://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px.jpg" alt="img">
-            <a class="fav-btn" href="#"><i class="ri-heart-fill"></i></a>
-        </div>
-        <div class="wrap-details">
-            <h5><router-link :to="{ name: 'food-detail'}"> Double Burger </router-link></h5>
-            <div class="wrap-footer">
-                <div class="rating">
-                    4.9
-                    <span class="rating-inner">
-                        <i class="ri-star-fill ps-0"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-half-line pe-0"></i>
+        <div class="single-blog-wrap">
+            <router-link :to="{ name: 'meal-detail' }">
+            <div class="thumb">
+                <img :src="food ? food.image : ''" alt="img">
+            </div>
+            <div class="wrap-detail meal-details style-2">
+                <h6 class="mt-0 mb-0 meal-title">{{ food ? food.name : '' }}</h6>
+                <span class="meal-features">
+                    <span class="text-dark feature">
+                        500 Cal
                     </span>
-                    (200)
+                    <span class="one-sep"></span>
+                    <span class="text-dark feature">
+                        Gluten Free
+                    </span>
+                    <span class="one-sep"></span>
+                    <span class="text-dark feature">
+                        3-Serve
+                    </span>
+                </span>
+                <div class="wrap-hover-are text-end">
+                    <button type="submit" class="btn btn-food-modal btn-secondary"  @click="$emit('addtocart', food)" > + </button>
                 </div>
             </div>
-            <div class="btn-area">
-                <h6 class="price">$17.00</h6>
-                <a class="btn btn-secondary" href="single-product.html">Add <i class="ri-add-line"></i></a>
-            </div>
+            </router-link>
         </div>
     </div>
-</div>
 </template>
 
 <script>
 export default {
+    props: ['food']
 
 }
 </script>

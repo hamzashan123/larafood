@@ -1,6 +1,45 @@
 <template>
     <!-- shop-details Area Start-->
     <div class="shop-details-area pd-top-100 pd-bottom-60 meal-detail">
+        <Modal title="Monday lunch" modalFor="mealDaySelector" size="xl" backdrop="static" >
+            <template v-slot:modal-body>
+                <section class="offer-area pd-bottom-90">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 align-self-center" v-for="(weeklyPlan, i) in weeklyPlans['mon']" :key="i">
+                                <div class="single-blog-wrap">
+                                    <div class="thumb" style="height: 300px">
+                                        <img :src="weeklyPlan.image" alt="img">
+                                    </div>
+                                    <div class="wrap-detail meal-details">
+                                        <h6 class="mt-0 mb-0 meal-title">{{ weeklyPlan ? weeklyPlan.name : '' }}</h6>
+                                        <span class="meal-features">
+                                            <span class="text-dark feature">
+                                                500 Cal
+                                            </span>
+                                            <span class="one-sep"></span>
+                                            <span class="text-dark feature">
+                                                Gluten Free
+                                            </span>
+                                            <span class="one-sep"></span>
+                                            <span class="text-dark feature">
+                                                3-Serve
+                                            </span>
+                                        </span>
+                                        <p> {{ weeklyPlan.description }} </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+            </template>
+
+        </Modal>
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
@@ -8,39 +47,39 @@
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
                                 <div class="slider-ite">
-                                    <img class="rounded" :src="weeklyPlanSelected ? weeklyPlans[weeklyPlanSelected].image : 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg'" alt="item">
+                                    <img class="rounded" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg" alt="item">
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="shop-tabs">
+
                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <h6>Upcomming Meals</h6> </button>
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <h6 class="nav-link-title">Daily Meals</h6> </button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><h6>How it works</h6></button>
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><h6 class="nav-link-title">How it works</h6></button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><h6>Why subscribe </h6> </button>
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><h6 class="nav-link-title">Why subscribe </h6> </button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <div class="weekly-plan">
                                     <div class="plan-images">
-
-                                        <div class="plan-image" :class="weeklyPlanSelected == index ? 'active' : ''" v-for="(weeklyPlan, index) in weeklyPlans" :key="index" @click="weeklyPlanSelected = index">
-                                            <img :src="weeklyPlan.image" class="rounded " alt="img">
-                                            <h6 class="plan-image-day text-center text-uppercase">{{ weeklyPlan.day }}</h6>
+                                        <div class="plan-image rounded"
+                                            :class="weeklyPlanSelected == index ? 'active' : ''"
+                                            v-for="(weeklyPlan, index) in weeklyPlans"
+                                            :key="index"
+                                            @click="weeklyPlanSelected = index"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#mealDaySelector">
+                                            <!-- <img :src="weeklyPlan.image" class="rounded " alt="img"> -->
+                                            <h6 class="plan-image-day text-center text-uppercase m-0">{{ index }}</h6>
                                         </div>
-
-                                    </div>
-                                    <div class="plan-content">
-                                        <h6 class="plan-content-day text-uppercase">{{ weeklyPlans[weeklyPlanSelected].day }}</h6>
-                                        <h5>{{ weeklyPlans[weeklyPlanSelected].mealTitle }}</h5>
-                                        <p>{{ weeklyPlans[weeklyPlanSelected].mealDescription }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,6 +148,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -125,19 +165,19 @@
                                         <h4 class="price">$27.00</h4>
                                     </div>
                                     <div class="for-days">
-                                        For 5 days
+                                        For {{ weeknds ? noOfDays == 5 ? noOfDays + 2  : noOfDays + 8  : noOfDays   }} days
                                     </div>
                                 </div>
                                 <div class="duration-container">
                                     <div class="durations">
-                                        <div class="duration active">Weekly</div>
-                                        <div class="duration">Monthly</div>
+                                        <div class="duration" @click="duration = 'weekly', noOfDays = 5" :class=" duration == 'weekly' ? 'active' : '' ">Weekly</div>
+                                        <div class="duration" @click="duration = 'monthly', noOfDays = 22"  :class=" duration == 'monthly' ? 'active' : '' ">Monthly</div>
                                     </div>
                                     <div class="include-switch">
                                         <div class="">
-                                            <input class="" type="checkbox" value="" id="flexCheckDefault">
+                                            <input class="" type="checkbox" value="" v-model="weeknds" id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
-                                               Include Weekends
+                                                Include Weekends
                                             </label>
                                         </div>
                                     </div>
@@ -156,56 +196,78 @@
 </template>
 
 <script>
+import Modal from '@comp/partials/Modal.vue'
 export default {
+    components: {
+        Modal,
+    },
     data() {
         return {
+            weeknds: false,
+            noOfDays: 5,
+            duration: 'weekly',
+            days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             weeklyPlanSelected: 0,
             weeklyPlans: {
-                0: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg',
-                    day: 'Mon',
-                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
-                },
-                1: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6708c070e7d41_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg',
-                    day: 'Tue',
-                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole whMethi roti / Plain roti.'
-                },
-                3: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b89b735739065897a4f_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg',
-                    day: 'Wed',
-                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
-                },
-                4: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b94f03e50f2e0d2b7f3_production-meal-image-bc1b24c8-f62a-4756-a40e-173a8b67a590.jpeg',
-                    day: 'Thu',
-                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
-                },
-                5: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b9a85b43c3383a0a3b3_production-meal-image-ef64cbd3-cc91-4c5f-9865-b9ff0442572e.jpeg',
-                    day: 'Fri',
-                    mealTitle: 'Kadhai Paneer, Soya Masala Sabzi',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops o/ Plain roti.'
-                },
-                6: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/610640046931cb5d54bd5472_production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpeg',
-                    day: 'Sat',
-                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
-                    mealDescription: 'A flavourful roti thali! er and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: Gluten, dairy, nuts, seeds, soy. *Methi roti / Plain roti.'
-                },
-                7: {
-                    image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg',
-                    day: 'Sun',
-                    mealTitle: 'Soya Masala Sabzi, Kadhai Paneer, ',
-                    mealDescription: 'A flavourful roti thali! Enjoy scoops of soft whole wheat rotis with flavourful kadhai paneer and chewy tasty soya masala sabzi. Served with salad and pickle. Allergen information: G roti / Plain roti.'
-                }
-
-            }
+                'mon': [
+                    {
+                        name: 'Linguine Marinara & Beef Meatballs',
+                        image: 'https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_383,w_580/v1652893119/production-meal-image-6c9081ec-aecf-4eb0-980c-4843c3883727.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                    {
+                        name: 'Chocolate Custard',
+                        image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
+                        description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
+                    },
+                    {
+                        name: 'Coca Cola Drink Can',
+                        image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                ],
+                'tue': [
+                    {
+                        name: 'Linguine Marinara & Beef Meatballs',
+                        image: 'https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_383,w_580/v1652893119/production-meal-image-6c9081ec-aecf-4eb0-980c-4843c3883727.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                    {
+                        name: 'Chocolate Custard',
+                        image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
+                        description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
+                    },
+                    {
+                        name: 'Coca Cola Drink Can',
+                        image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                ],
+                'wed': [
+                    {
+                        name: 'Linguine Marinara & Beef Meatballs',
+                        image: 'https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_383,w_580/v1652893119/production-meal-image-6c9081ec-aecf-4eb0-980c-4843c3883727.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                    {
+                        name: 'Chocolate Custard',
+                        image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
+                        description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
+                    },
+                    {
+                        name: 'Coca Cola Drink Can',
+                        image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
+                        description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
+                    },
+                ],
+                'thu': [],
+                'fri': [],
+                'sat': [],
+                'sun': [],
+            },
         }
+    },
+    methods: {
     }
 
 }

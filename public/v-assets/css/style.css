@@ -621,6 +621,14 @@ ul {
   background: var(--main-color);
 }
 
+button.btn-food-modal {
+    height: 40px;
+    width: 40px;
+    line-height: 1em;
+    padding: 0;
+    border-radius: 50%;
+}
+
 .btn-secondary {
   background: var(--secondary-color);
   color: var(--heading-color);
@@ -3294,7 +3302,9 @@ ul.side-navbar-items li a:hover {
 
 .weekly-plan .plan-image {
     margin: 5px;
-    width: 25%;
+    /* width: 80px; */
+    height: 80px;
+    background-color: lightgray;
     display: flex;
     cursor: pointer;
     display: -webkit-box;
@@ -3307,6 +3317,9 @@ ul.side-navbar-items li a:hover {
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .weekly-plan .plan-image img {
@@ -3888,6 +3901,16 @@ span.one-sep {
   background: transparent;
   color: var(--main-color);
 }
+
+
+.nav-link .nav-link-title {
+    color: var(--paragraph-color);
+}
+
+.nav-link.active .nav-link-title {
+    color: var(--heading-color);
+}
+
 .shop-tabs .default-form-wrap {
   border: 0;
   padding: 0;

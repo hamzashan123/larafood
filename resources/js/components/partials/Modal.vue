@@ -7,7 +7,7 @@
             :aria-labelledby="modalFor"
             aria-hidden="true"
         >
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-scrollable" :class="size ? 'modal-' + size : ''" :data-bs-backdrop="backdrop ?  backdrop : '' ">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" :id="modalFor">
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-    props: ['title', 'modal-for']
+    props: ['title', 'modal-for', 'size', 'backdrop']
 };
 </script>
 
