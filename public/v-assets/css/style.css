@@ -3302,9 +3302,9 @@ ul.side-navbar-items li a:hover {
 
 .weekly-plan .plan-image {
     margin: 5px;
-    /* width: 80px; */
-    height: 80px;
-    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206 40 41 / 18%);
     display: flex;
     cursor: pointer;
     display: -webkit-box;
@@ -3320,6 +3320,10 @@ ul.side-navbar-items li a:hover {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.plan-image.active {
+    border: 2px solid;
 }
 
 .weekly-plan .plan-image img {
@@ -3909,6 +3913,8 @@ span.one-sep {
 
 .nav-link.active .nav-link-title {
     color: var(--heading-color);
+    padding-bottom: 6px;
+    border-bottom: 2px solid;
 }
 
 .shop-tabs .default-form-wrap {
@@ -4272,8 +4278,8 @@ span.one-sep {
   border: 0;
   background: transparent;
   padding: 0 60px 0 24px;
-  height: 56px;
-  line-height: 56px;
+  height: 50px;
+  line-height: 50px;
 }
 .widget.widget_search .search-form button {
   position: absolute;
@@ -4283,8 +4289,8 @@ span.one-sep {
   cursor: pointer;
   font-size: 20px;
   padding: 0 23px;
-  height: 56px;
-  line-height: 56px;
+  height: 50px;
+  line-height: 50px;
   top: 0;
   right: 0;
   color: var(--main-color);
@@ -4584,7 +4590,7 @@ span.one-sep {
   color: var(--heading-color);
 }
 .navbar-area-2 .nav-right-part ul li span {
-  top: 5px;
+  top: 0;
   right: 10px;
 }
 .navbar-area-2 .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {

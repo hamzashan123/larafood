@@ -6,8 +6,8 @@
     min-height: 80px;
   }
   .banner-area {
-    height: auto;    
-  } 
+    height: auto;
+  }
   .banner-inner {
     padding: 150px 0 350px;
   }
@@ -43,13 +43,13 @@
   .product-nav .nav-item {
     width: 16.6666666667%;
     padding: 0 7.5px;
-  }  
+  }
   .product-nav .nav-item .nav-link {
-    height: 70px;
+    height: 60px;
     font-size: 16px;
     padding: 0;
     font-weight: 500;
-  }  
+  }
   .single-item-wrap .wrap-details h5 {
     font-size: 20px;
   }
@@ -64,7 +64,8 @@
   }
   .shop-details-area .product-thumbnail-wrapper {
     top: 120px;
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
   }
   .shop-details-area .product-thumbnail-wrapper .product-thumbnail-carousel {
     width: 100%;
@@ -105,7 +106,7 @@
   .testimonial-area-2 .owl-carousel .owl-nav button {
     top: 160px;
     right: 0;
-  }  
+  }
   .testimonial-area-2 .owl-carousel:hover .owl-nav .owl-next {
     right: 0;
   }
@@ -137,7 +138,7 @@
   }
   .single-blog-wrap .wrap-details .wrap-hover-area {
     margin-bottom: -197px;
-  } 
+  }
   .single-blog-wrap .wrap-details h5 {
     margin-top: 5px;
   }
@@ -207,7 +208,7 @@
   }
   .pd-bottom-120 {
     padding-bottom: 100px;
-  }  
+  }
   .pd-bottom-100 {
     padding-bottom: 80px;
   }
@@ -218,7 +219,7 @@
     font-size: 18px;
   }
   .shop-details-area .product-thumbnail-wrapper {
-    width: 65%;
+    /* width: 65%; */
   }
   .shop-item-details .entry-title {
     font-size: 36px;
@@ -421,7 +422,7 @@
   }
   .product-nav .nav-item {
     width: auto;
-    padding: 0 15px 20px 0;
+    padding: 0 12px 20px 0;
   }
   .product-nav .nav-item .nav-link {
     padding: 0 25px;
@@ -439,7 +440,7 @@
     flex: none;
   }
   .shop-details-area .product-thumbnail-wrapper {
-    width: 75%;
+    /* width: 75%; */
   }
   .shop-item-details .price {
     margin-top: 15px;
@@ -584,7 +585,7 @@
     width: 47%;
   }
   .product-nav .nav-item .nav-link {
-    padding: 0 17px;
+    padding: 0 15px;
   }
   .subscribe-area .section-title .title, .featured-area .section-title .title {
     font-size: 38px;
@@ -737,8 +738,14 @@
     top: 25px;
   }
   .product-nav .nav-item {
-    width: 50%;
+    /* width: 50%; */
+    width: auto;
   }
+
+  .product-nav .nav-item .nav-link {
+    height: 50px;
+}
+
   .single-input-wrap {
     height: auto;
   }
@@ -803,8 +810,9 @@
     padding: 14px 20px 20px;
   }
   .product-nav .nav-item {
-    width: 100%;
-    padding-right: 0;
+    /* width: 100%; */
+    width: auto;
+    padding-right: 3px;
   }
   .category-menu .category-sub-menu {
     padding: 20px 20px 0 20px;

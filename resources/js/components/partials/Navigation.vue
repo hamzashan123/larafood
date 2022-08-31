@@ -8,8 +8,10 @@
                 <router-link :to="{ name: 'meals-plan' }">Meal Plans</router-link>
             </li> -->
             <li>
-                <router-link :to="{ name: 'search' }">Search</router-link>
-
+                <router-link :to="{ name: 'about' }">About</router-link>
+            </li>
+            <li>
+                <router-link :to="{ name: 'contact' }">Contact</router-link>
             </li>
         </ul>
     </div>

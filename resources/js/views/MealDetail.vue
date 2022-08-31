@@ -5,12 +5,14 @@
             <template v-slot:modal-body>
                 <section class="offer-area pd-bottom-90">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 align-self-center" v-for="(weeklyPlan, i) in weeklyPlans['mon']" :key="i">
-                                <div class="single-blog-wrap">
-                                    <div class="thumb" style="height: 300px">
+                        <div class="single-blog-wrap" v-for="(weeklyPlan, i) in weeklyPlans['mon']" :key="i">
+                            <div class="row">
+                                <div class="col-md-8 align-self-center">
+                                    <div class="thumb">
                                         <img :src="weeklyPlan.image" alt="img">
                                     </div>
+                                </div>
+                                <div class="col-md-4 align-self-center">
                                     <div class="wrap-detail meal-details">
                                         <h6 class="mt-0 mb-0 meal-title">{{ weeklyPlan ? weeklyPlan.name : '' }}</h6>
                                         <span class="meal-features">
@@ -30,7 +32,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -42,7 +43,7 @@
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-7">
+                <div class="col-lg-7">
                     <div class="ticy-product">
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
@@ -151,7 +152,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5">
                     <div class="shop-item-details">
                         <h2 class="entry-title">Sambal Satay Gado-gado</h2>
                         <div class="row">

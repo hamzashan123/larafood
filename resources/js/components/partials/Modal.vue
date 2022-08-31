@@ -6,8 +6,9 @@
             tabindex="-1"
             :aria-labelledby="modalFor"
             aria-hidden="true"
+            :data-bs-backdrop="backdrop ?  backdrop : false "
         >
-            <div class="modal-dialog modal-dialog-scrollable" :class="size ? 'modal-' + size : ''" :data-bs-backdrop="backdrop ?  backdrop : '' ">
+            <div class="modal-dialog modal-dialog-scrollable" :class="size ? 'modal-' + size : ''" >
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" :id="modalFor">
