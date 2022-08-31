@@ -42,7 +42,7 @@
             </li>
         </ul>
 
-        <MiniCart v-if="cartOpen"/>
+        <!-- <MiniCart v-if="cartOpen"/> -->
 
     </div>
 </template>

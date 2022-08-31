@@ -11,7 +11,7 @@
             <div class="modal-dialog modal-dialog-scrollable" :class="size ? 'modal-' + size : ''" >
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" :id="modalFor">
+                        <h5 class="modal-title text-capitalize" :id="modalFor">
                             {{ title }}
                         </h5>
                         <button
