@@ -23,7 +23,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-close-btn"><a href="#"><i class="ri-close-line"></i></a></td>
-                                    <th scope="row"><img src="/v-assets/img/widget/01.png" alt="img"></th>
+                                    <th scope="row"><img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1637012267/production-meal-without-background-image-6cadf26d-addc-4674-bfb3-3255cd770ebd.png" alt="img"></th>
                                     <td colspan="2" class="item-name">
                                         <div class="details">
                                             <h5>All Season Gulliver Pizza</h5>

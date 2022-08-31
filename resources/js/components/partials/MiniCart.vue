@@ -9,7 +9,7 @@
   <ul>
     <li class='minicart--item'>
       <div class='placeholder'>
-        <img src="https://scontent.ccdn.cloud/image/vivitravels-en/4c482629-715a-4efc-84bd-917946362a53/maxw-120.jpg" alt="">
+        <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg" alt="">
       </div>
       <h1 class='title'>Title of Product 01</h1>
 
@@ -26,7 +26,9 @@
       </p>
     </li>
     <li class='minicart--item'>
-      <div class='placeholder'></div>
+      <div class='placeholder'>
+        <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61064050a510183577a6c7f7_production-meal-image-ea98e43b-5663-49f6-9c00-8f2b23225bd2.jpeg" alt="">
+      </div>
       <h1 class='title'>Some Product 02</h1>
 
       <p class='size'>
