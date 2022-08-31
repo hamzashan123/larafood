@@ -7,12 +7,12 @@
                     <div class="container">
                         <div class="single-blog-wrap" v-for="(weeklyPlan, i) in weeklyPlans[weeklyPlanSelected]" :key="i">
                             <div class="row">
-                                <div class="col-md-8 align-self-center">
+                                <div class="col-md-6 align-self-center">
                                     <div class="thumb">
                                         <img :src="weeklyPlan.image" alt="img">
                                     </div>
                                 </div>
-                                <div class="col-md-4 align-self-center">
+                                <div class="col-md-6">
                                     <div class="wrap-detail meal-details">
                                         <h6 class="mt-0 mb-0 meal-title">{{ weeklyPlan ? weeklyPlan.name : '' }}</h6>
                                         <span class="meal-features">
@@ -204,7 +204,7 @@ export default {
     },
     data() {
         return {
-            weeknds: false,
+            weeknds: true,
             noOfDays: 5,
             duration: 'weekly',
             days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
