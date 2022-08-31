@@ -460,7 +460,7 @@
     display: block;
   }
   .shop-tabs .nav-pills .nav-item .nav-link {
-    padding: 0;
+    padding: 0 6px;
   }
   .owl-carousel.style-2 .owl-nav {
     margin: 0;
@@ -642,6 +642,33 @@
   .testimonial-area-2 .testimonial-slider {
     margin-bottom: -25px;
   }
+
+  .plan-images {
+    flex-wrap: wrap;
+   }
+   .weekly-plan .plan-image {
+        flex: 1 1 20%;
+        height: 70px;
+    }
+
+    .pd-container {
+        flex-direction: column-reverse;
+    }
+
+    .price-container {
+        width: 70%;
+        height: 110px;
+        margin-top: -15px;
+        margin-right: 0;
+    }
+
+    .duration-container {
+        padding: 20px 30px 35px;
+        width: 100%;
+        left: auto;
+        margin-right: auto;
+    }
+
 }
 @media all and (max-width: 575px) {
   .container,
@@ -703,7 +730,7 @@
     width: 48.9%;
   }
   .shop-details-area .product-thumbnail-wrapper {
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
   .bill-payment-wrap .default-form-wrap {
     padding: 68px 30px 50px;

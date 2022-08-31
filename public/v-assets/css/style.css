@@ -3302,7 +3302,7 @@ ul.side-navbar-items li a:hover {
 
 .weekly-plan .plan-image {
     margin: 5px;
-    width: 100px;
+    /* width: 100px; */
     height: 100px;
     background-color: rgb(206 40 41 / 18%);
     display: flex;
@@ -3416,6 +3416,7 @@ ul.side-navbar-items li a:hover {
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 15px;
+    border: 1px solid #0000004d;
 }
 
 .duration {
