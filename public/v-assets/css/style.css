@@ -2756,7 +2756,7 @@ ul.side-navbar-items li a:hover {
   position: relative;
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 50vh;
   background-size: 64%;
   z-index: 0;
 }
@@ -4608,7 +4608,7 @@ span.one-sep {
   background: #FAF7F2;
 }
 .banner-area-2 .banner-inner {
-  padding: 100px 0;
+  padding: 120px 0 50px;
 }
 .banner-area-2 .banner-inner h3 {
   color: var(--main-color);
@@ -4633,15 +4633,15 @@ span.one-sep {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  width: 102%;
+  width: 93%;
 }
 .banner-area-2 .banner-thumb {
-  left: auto;
-  right: 9%;
-  bottom: -10%;
-  -webkit-transform: none;
-          transform: none;
-  width: 40%;
+    left: auto;
+    right: 16%;
+    bottom: 0%;
+    -webkit-transform: none;
+    transform: none;
+    width: 30%;
 }
 
 /***intro-contact-area***/

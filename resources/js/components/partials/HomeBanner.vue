@@ -13,7 +13,7 @@
                     <div class="banner-inner">
                         <h3>Meals Plan</h3>
                         <h1>Different spice for a Different taste</h1>
-                        <p>You need not only Just Food Stalls with Persons but also specialized equipment  start the Fast Food</p>
+                        <!-- <p>You need not only Just Food Stalls with Persons but also specialized equipment  start the Fast Food</p> -->
                         <router-link class="btn btn-secondary" :to="{ name: 'meals-plan' }">GET IT NOW</router-link>
                     </div>
                 </div>
