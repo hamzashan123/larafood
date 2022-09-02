@@ -57,7 +57,10 @@
 </template>
 
 <script>
+
+import { mapGetters, mapActions } from "vuex"
 import MealCard from './MealCard.vue'
+
 export default {
     data() {
         return {
@@ -233,7 +236,17 @@ export default {
     },
     components: {
         MealCard,
+    },
+    computed: {
+        ...mapGetters({ meals: 'meal/getMeals', isLoading: "meal/getIsLoading", })
+    },
+    methods: {
+        ...mapActions({ loadMeals: 'meal/loadMeals' })
+    },
+    mounted() {
+        this.loadMeals()
     }
+
 
 }
 </script>
