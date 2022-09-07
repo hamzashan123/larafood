@@ -8,7 +8,7 @@ import store from './store'
 
 import App from './App.vue'
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 axios.defaults.baseURL = "https://backend.mundiatech.com/api/";
 // axios.defaults.headers.post['Content-Type'] = 'application/json;'
 // axios.defaults.headers.common['Access-Control-Allow-Origin'] = 'http://127.0.0.1:8000/';

@@ -8,7 +8,7 @@
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slider">
                                 <div class="slider-item">
-                                    <img src="https://scontent.ccdn.cloud/image/vivitravels-en/4c482629-715a-4efc-84bd-917946362a53/maxw-960.jpg" alt="item">
+                                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg" alt="item">
                                 </div>
                                 <!-- <div class="slider-item">
                                     <img src="https://themefie.com/html/foodka/assets/img/product/pizza/1.png" alt="item">
@@ -46,8 +46,9 @@
                               <li class="breadcrumb-item active" aria-current="page">Shop Details</li>
                             </ul>
                         </nav> -->
-                        <h2 class="entry-title">Maxican Pizza Test Better</h2>
+                        <h2 class="entry-title">Dish 1</h2>
                         <div class="row">
+                            <p>Some details about dish goes here.</p>
                             <div class="col-lg-6 order-lg-last align-self-center text-end">
                                 <!-- <div class="rating text-lg-end">
                                     4.9
@@ -60,11 +61,11 @@
                                     </span>
                                     (200)
                                 </div> -->
-                                <button type="submit" class="btn btn-secondary">ADD</button>
+                                <!-- <button type="submit" class="btn btn-secondary">ADD</button> -->
                             </div>
-                            <div class="col-lg-6 align-self-center">
+                            <!-- <div class="col-lg-6 align-self-center">
                                 <h4 class="price">$27.00</h4>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- <form> -->
                             <!-- <div class="quantity buttons_added">

@@ -5,14 +5,13 @@
             <template v-slot:modal-body>
                 <section class="offer-area pd-bottom-90">
                     <div class="container">
-                        <div class="single-blog-wrap" v-for="(weeklyPlan, i) in weeklyPlans[weeklyPlanSelected]" :key="i">
-                            <div class="row">
-                                <div class="col-md-6 align-self-center">
+                        <div class="row">
+                            <div class="col-md-6 align-self-center" v-for="(weeklyPlan, i) in weeklyPlans[weeklyPlanSelected]" :key="i">
+                                <div class="single-blog-wrap">
                                     <div class="thumb">
-                                        <img :src="weeklyPlan.image" alt="img">
+                                        <img :src="weeklyPlan.image" alt="img" style="height: 350px; width: 100%; object-fit: cover;">
                                     </div>
-                                </div>
-                                <div class="col-md-6">
+                                    
                                     <div class="wrap-detail meal-details">
                                         <h6 class="mt-0 mb-0 meal-title">{{ weeklyPlan ? weeklyPlan.name : '' }}</h6>
                                         <span class="meal-features">
@@ -29,8 +28,12 @@
                                             </span>
                                         </span>
                                         <p> {{ weeklyPlan.description }} </p>
+                                        <router-link class="btn btn-dark" target="_blank" :to="{ name: 'food-detail' }">View</router-link>
                                     </div>
                                 </div>
+                                <!-- <div class="col-md-6">
+                                    
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -43,12 +46,12 @@
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="ticy-product">
                         <div class="product-thumbnail-wrapper">
                             <div class="single-thumbnail-slide">
                                 <div class="slider-ite">
-                                    <img class="rounded" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg" alt="item">
+                                    <img class="rounded" src="https://images.squarespace-cdn.com/content/v1/5da10bdf01106247e5f4eca7/1599773377794-T9GS2EXR6D5N7DBEFORY/wXYbzlNw.jpeg" alt="item">
                                 </div>
                             </div>
                         </div>
@@ -152,11 +155,27 @@
 
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="shop-item-details">
-                        <h2 class="entry-title">Sambal Satay Gado-gado</h2>
+                <div class="col-lg-6">
+                    <div class="shop-item-details mt-0">
+                        <span class=" badge bg-primary text-capitalize " > Lunch </span>
+                        <h2 class="entry-title mt-0">Meal Plan 1</h2>
                         <div class="row">
-                            <p clas s="mt-4">Here is the epitome of cultural exploration of veg and non veg on a plate. A complete meal in itself, our Indian thalis come with goodness of taste and wholesomeness together.</p>
+                            <p class="mt-2">What's included: </p>
+                            <div class="meal-detail-dishes-slider owl-carousel style-2 mb-3">
+                                <div class="item" v-for="(dish, index) in weeklyPlans[weeklyPlanSelected]" :key="index">
+                                    <div class="single-blog-wrap">
+                                        
+                                        <div class="thumb">
+                                            <img class="img-responsive" :src="dish ? dish.image : ''" alt="img">
+                                        </div>
+                                        <div class="wrap-detail meal-details">
+                                            <h6 class="mt-0 mb-0 meal-title">{{ dish ? dish.name : '' }}</h6>
+                                            <router-link :to="{ name: 'food-detail' }">View</router-link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <p clas s="mt-4">Here is the epitome of cultural exploration of veg and non veg on a plate. A complete meal in itself, our Indian thalis come with goodness of taste and wholesomeness together.</p> -->
                             <div class="pd-container d-flex">
                                 <div class="price-container">
                                     <div class="sale-price">
@@ -192,15 +211,21 @@
                 </div>
             </div>
         </div>
+        <div class="mt-5">
+            <MealSlider title="Featured plans"/>
+        </div>
     </div>
     <!-- shop-details Area End -->
 </template>
 
 <script>
 import Modal from '@comp/partials/Modal.vue'
+import MealSlider from '@comp/partials/MealSlider.vue'
+
 export default {
     components: {
         Modal,
+        MealSlider,
     },
     data() {
         return {
@@ -208,123 +233,123 @@ export default {
             noOfDays: 5,
             duration: 'weekly',
             days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-            weeklyPlanSelected: 0,
+            weeklyPlanSelected: 'mon',
             weeklyPlans: {
                 'mon': [
                     {
-                        name: 'Linguine Marinara & Beef Meatballs',
+                        name: 'Dish 1',
                         image: 'https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_383,w_580/v1652893119/production-meal-image-6c9081ec-aecf-4eb0-980c-4843c3883727.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish 2',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
-                        image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
+                        name: 'Dish 3',
+                        image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'tue': [
                     {
-                        name: 'Beef Meatballs & Linguine Marinara ',
+                        name: 'Dish ',
                         image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'wed': [
                     {
-                        name: 'Beef Meatballs & Linguine Marinara ',
+                        name: 'Dish ',
                         image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6106404a9ca1f30fe0fbb9a9_production-meal-image-50d04c03-029a-4039-ab75-8aecefbdcf43.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'thu': [
                     {
-                        name: 'Beef Meatballs & Linguine Marinara ',
+                        name: 'Dish ',
                         image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61064050a510183577a6c7f7_production-meal-image-ea98e43b-5663-49f6-9c00-8f2b23225bd2.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'fri': [
                     {
-                        name: 'Beef Meatballs & Linguine Marinara ',
+                        name: 'Dish ',
                         image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6106404a9ca1f30fe0fbb9a9_production-meal-image-50d04c03-029a-4039-ab75-8aecefbdcf43.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'sat': [
                     {
-                        name: 'Linguine Marinara & Beef Meatballs',
+                        name: 'Dish ',
                         image: 'https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_383,w_580/v1652893119/production-meal-image-6c9081ec-aecf-4eb0-980c-4843c3883727.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                 ],
                 'sun': [
                      {
-                        name: 'Beef Meatballs & Linguine Marinara ',
+                        name: 'Dish ',
                         image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6bb12037c27177184b97_production-meal-image-fa07e0dc-cb7f-43d7-a669-d35dc3fbcf93.jpeg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },
                     {
-                        name: 'Chocolate Custard',
+                        name: 'Dish ',
                         image: 'https://www.tasteofhome.com/wp-content/uploads/2018/05/Slow-Cooker-Chocolate-Pots-De-Creme_EXPS_EDSC18_206947_C03_21_2b-3.jpg?resize=700,700',
                         description: 'Lunch on the go just got a whole lot sweeter. Tuck jars of rich chocolate custard into lunch bags for a midday treat. These desserts in a jar are fun for picnics, too. —Nick Iverson, Denver, Colorado',
                     },
                     {
-                        name: 'Coca Cola Drink Can',
+                        name: 'Dish ',
                         image: 'https://cdn.shopify.com/s/files/1/0278/0112/4958/products/grocerapp-coca-cola-drink-can-5e9edb8239734_360x.jpg',
                         description: 'A tangle of tender linguine sauced up in our Masterful Marinara, packed with hidden cauliflower, onion, butternut squash, and carrot for extra goodness',
                     },

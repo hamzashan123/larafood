@@ -35,7 +35,7 @@ const router = new VueRouter({
             component: MealDetail,
         },
         {
-            path: '/food-detail/',
+            path: '/food-detail',
             name: 'food-detail',
             component: FoodDetail,
         },
