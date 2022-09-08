@@ -147,6 +147,28 @@
                 },
             }
         })
+
+        /**meals-slider**/
+        $('.meal-detail-dishes-slider').owlCarousel({
+            loop:true,
+            nav:false,
+            dots: false,
+            margin: 15,
+            items: 2,
+            autoplay: true,
+            smartSpeed:1500,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 2
+                },
+            }
+        })
         /*---------------------------------------
             Thumbnail Slider
         ---------------------------------------*/

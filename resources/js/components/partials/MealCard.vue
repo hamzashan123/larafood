@@ -5,6 +5,7 @@
             <router-link :to="{ name: 'meal-detail' }">
             <div class="thumb">
                 <img :src="meal ? meal.image : ''" alt="img">
+                <span class="meal-image-badge badge bg-primary text-capitalize " v-if="meal.type">{{ meal ? meal.type : '' }}</span>
             </div>
             <div class="wrap-detail meal-details">
                 <h6 class="mt-0 mb-0 meal-title">{{ meal ? meal.name : '' }}</h6>

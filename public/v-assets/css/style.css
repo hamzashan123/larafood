@@ -924,6 +924,12 @@ button.btn-food-modal {
   transition: all 0.4s ease-in;
 }
 
+.meal-image-badge {
+  top: 10px;
+  position: absolute;
+  left: 10px;
+}
+
 .preloader-inner {
   position: fixed;
   left: 0;
@@ -3304,7 +3310,7 @@ ul.side-navbar-items li a:hover {
 .weekly-plan .plan-image {
     margin: 5px;
     /* width: 100px; */
-    height: 100px;
+    height: 90px;
     background-color: var(--light-pink);
     display: flex;
     cursor: pointer;
@@ -3321,6 +3327,13 @@ ul.side-navbar-items li a:hover {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.meal-detail-dishes-slider .owl-item .thumb img {
+  width: 100%;
+  height: 200px!important;
+  object-fit: cover;
+  object-position: center;
 }
 
 .plan-image.active {
@@ -3559,6 +3572,7 @@ ul.side-navbar-items li a:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+.meal-slider .thumb img,
 .meals-tab .single-blog-wrap .thumb img {
     height: 260px;
     object-fit: cover;

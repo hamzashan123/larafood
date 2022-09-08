@@ -657,13 +657,17 @@
 
     .price-container {
         width: 70%;
-        height: 110px;
-        margin-top: -15px;
+        height: auto;
+        margin-top: -25px;
         margin-right: 0;
     }
 
+    .sale-price {
+        margin-top: 20px;
+    }
+
     .duration-container {
-        padding: 20px 30px 35px;
+        padding: 20px 30px 45px;
         width: 100%;
         left: auto;
         margin-right: auto;
@@ -770,7 +774,7 @@
   }
 
   .product-nav .nav-item .nav-link {
-    height: 50px;
+    height: 45px;
 }
 
   .single-input-wrap {
@@ -839,7 +843,7 @@
   .product-nav .nav-item {
     /* width: 100%; */
     width: auto;
-    padding-right: 3px;
+    padding-right: 0;
   }
   .category-menu .category-sub-menu {
     padding: 20px 20px 0 20px;

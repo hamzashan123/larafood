@@ -856,10 +856,10 @@ export default {
         }
     },
     computed: {
-        // ...mapGetters({ foods: 'food/getFoods', isLoading: "food/getIsLoading", })
+        ...mapGetters({ foods: 'food/getFoods', isLoading: "food/getIsLoading", })
     },
     methods: {
-        // ...mapActions({ loadFoods: 'food/loadFoods' })
+        ...mapActions({ loadFoods: 'food/loadFoods' })
     },
     mounted() {
         this.loadFoods()
