@@ -161,8 +161,23 @@
                         <h2 class="entry-title mt-0">Meal Plan 1</h2>
                         <div class="row">
                             <p class="mt-2">What's included: </p>
-                            <div class="meal-detail-dishes-slider owl-carousel style-2 mb-3">
-                                <div class="item" v-for="(dish, index) in weeklyPlans[weeklyPlanSelected]" :key="index">
+                            
+                            <div class="meal-detail-dishes-slider style-2 mb-3">
+                                <carousel :autoplay="true" :nav="false" :items="Number(2)" :margin="Number(10)" :dots="false">
+                                    <div class="item" v-for="(dish, index) in weeklyPlans[weeklyPlanSelected]" :key="index">
+                                        <div class="single-blog-wrap">
+                                            
+                                            <div class="thumb">
+                                                <img class="img-responsive" :src="dish ? dish.image : ''" alt="img">
+                                            </div>
+                                            <div class="wrap-detail meal-details">
+                                                <h6 class="mt-0 mb-0 meal-title">{{ dish ? dish.name : '' }}</h6>
+                                                <router-link :to="{ name: 'food-detail' }">View</router-link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </carousel>
+                                <!-- <div class="item" v-for="(dish, index) in weeklyPlans[weeklyPlanSelected]" :key="index">
                                     <div class="single-blog-wrap">
                                         
                                         <div class="thumb">
@@ -173,7 +188,7 @@
                                             <router-link :to="{ name: 'food-detail' }">View</router-link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <!-- <p clas s="mt-4">Here is the epitome of cultural exploration of veg and non veg on a plate. A complete meal in itself, our Indian thalis come with goodness of taste and wholesomeness together.</p> -->
                             <div class="pd-container d-flex">
@@ -221,11 +236,13 @@
 <script>
 import Modal from '@comp/partials/Modal.vue'
 import MealSlider from '@comp/partials/MealSlider.vue'
+import carousel from 'vue-owl-carousel'
 
 export default {
     components: {
         Modal,
         MealSlider,
+        carousel,
     },
     data() {
         return {

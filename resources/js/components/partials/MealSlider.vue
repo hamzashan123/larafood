@@ -7,37 +7,39 @@
                     <div class="section-title mb-0">
                         <h2 class="title">{{ title }}</h2>
                     </div>
-                    <div class="meal-slider owl-carousel style-2">
-                        <div class="item" v-for="(meal, index) in foryou" :key="index">
-                            <div class="single-blog-wrap">
-                                <router-link :to="{ name: 'meal-detail' }">
-                                <div class="thumb">
-                                    <img :src="meal ? meal.image : ''" alt="img">
-                                </div>
-                                <div class="wrap-detail meal-details">
-                                    <h6 class="mt-0 mb-0 meal-title">{{ meal ? meal.name : '' }}</h6>
-                                    <span class="meal-features">
-                                        <span class="text-dark feature">
-                                            500 Cal
-                                        </span>
-                                        <span class="one-sep"></span>
-                                        <span class="text-dark feature">
-                                            Gluten Free
-                                        </span>
-                                        <span class="one-sep"></span>
-                                        <span class="text-dark feature">
-                                            3-Serve
-                                        </span>
-                                    </span>
-                                    <div class="wrap-hover-are">
-                                        <span class="text-dark">Starting from </span>
-                                        <span class="link-btn"> ${{meal ? meal.price : ''  }}</span>
-
+                    <div class="meal-slider style-2">
+                        <carousel :autoplay="true" :nav="false" :items="Number(4)" :margin="Number(10)" :dots="false">
+                            <div class="item" v-for="(meal, index) in foryou" :key="index">
+                                <div class="single-blog-wrap">
+                                    <router-link :to="{ name: 'meal-detail' }">
+                                    <div class="thumb">
+                                        <img :src="meal ? meal.image : ''" alt="img">
                                     </div>
+                                    <div class="wrap-detail meal-details">
+                                        <h6 class="mt-0 mb-0 meal-title">{{ meal ? meal.name : '' }}</h6>
+                                        <span class="meal-features">
+                                            <span class="text-dark feature">
+                                                500 Cal
+                                            </span>
+                                            <span class="one-sep"></span>
+                                            <span class="text-dark feature">
+                                                Gluten Free
+                                            </span>
+                                            <span class="one-sep"></span>
+                                            <span class="text-dark feature">
+                                                3-Serve
+                                            </span>
+                                        </span>
+                                        <div class="wrap-hover-are">
+                                            <span class="text-dark">Starting from </span>
+                                            <span class="link-btn"> ${{meal ? meal.price : ''  }}</span>
+
+                                        </div>
+                                    </div>
+                                    </router-link>
                                 </div>
-                                </router-link>
                             </div>
-                        </div>
+                        </carousel>
                     </div>
                 </div>
             </div>
@@ -47,8 +49,13 @@
 </template>
 
 <script>
+    import carousel from 'vue-owl-carousel'
+
 export default {
     props: ['title'],
+    components: {
+        carousel,
+    },
     data() {
         return {
             foryou: [

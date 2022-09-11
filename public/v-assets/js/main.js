@@ -127,48 +127,48 @@
 
 
         /**meals-slider**/
-        $('.meal-slider').owlCarousel({
-            loop:true,
-            nav:true,
-            dots: false,
-            margin: 15,
-            items: 4,
-            smartSpeed:1500,
-            navText: [leftAngle,rightAngle],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 4
-                },
-            }
-        })
+        // $('.meal-slider').owlCarousel({
+        //     loop:true,
+        //     nav:true,
+        //     dots: false,
+        //     margin: 15,
+        //     items: 4,
+        //     smartSpeed:1500,
+        //     navText: [leftAngle,rightAngle],
+        //     responsive: {
+        //         0: {
+        //             items: 1
+        //         },
+        //         768: {
+        //             items: 2
+        //         },
+        //         992: {
+        //             items: 4
+        //         },
+        //     }
+        // })
 
         /**meals-slider**/
-        $('.meal-detail-dishes-slider').owlCarousel({
-            loop:true,
-            nav:false,
-            dots: false,
-            margin: 15,
-            items: 2,
-            autoplay: true,
-            smartSpeed:1500,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 2
-                },
-            }
-        })
+        // $('.meal-detail-dishes-slider').owlCarousel({
+        //     loop:true,
+        //     nav:false,
+        //     dots: false,
+        //     margin: 15,
+        //     items: 2,
+        //     autoplay: true,
+        //     smartSpeed:1500,
+        //     responsive: {
+        //         0: {
+        //             items: 1
+        //         },
+        //         768: {
+        //             items: 2
+        //         },
+        //         992: {
+        //             items: 2
+        //         },
+        //     }
+        // })
         /*---------------------------------------
             Thumbnail Slider
         ---------------------------------------*/
