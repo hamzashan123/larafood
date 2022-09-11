@@ -27,6 +27,7 @@
         "sass": "^1.32",
         "sass-loader": "^11.0",
         "sweetalert2": "^11.3.0",
+        "vue-owl-carousel": "^2.0.3",
         "vue-router": "^3.5.4",
         "vuex": "^3.6.0"
     },
