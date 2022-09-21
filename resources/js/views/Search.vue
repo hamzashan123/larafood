@@ -1,26 +1,67 @@
 <template>
-<div>
-    <SubpageBanner title="Search" subtitle="Best Meals to search!" search="true"/>
+    <div>
+        <SubpageBanner title="Search" subtitle="Best Meals to search!" />
 
-    <div class="container mt-4 mb-4">
-        <div class="row justify-content-center">
-                <FoodCard :food="food" v-for="food in foods" :key="food" />
+        <div class="container">
+            <div class="row my-4">
+                <h6>Filter:</h6>
+                <div class="col-sm-3 pb-2">
+                    <select class="single-select ">
+                        <option>Meal Type</option>
+                        <option value="asc">Lunch</option>
+                        <option value="pop">Breakfast</option>
+                        <option value="desc">Snacks</option>
+                        <option value="asc">Dinner</option>
+                    </select>
+                </div>
+    
+                <div class="col-sm-3 pb-2">
+                    <select class="single-select ">
+                        <option>Days</option>
+                        <option value="asc">Monday</option>
+                        <option value="pop">Tuesday</option>
+                        <option value="desc">Wednesday</option>
+                        <option value="asc">Thusrday</option>
+                        <option value="asc">Friday</option>
+                    </select>
+                </div>
+    
+                <div class="col-sm-3 pb-2">
+                    <select class="single-select ">
+                        <option>Meal Type</option>
+                        <option value="asc">Lunch</option>
+                        <option value="pop">Breakfast</option>
+                        <option value="desc">Snacks</option>
+                        <option value="asc">Dinner</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="container mt-4 mb-4 meals-tab">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in meals.all" :key="index">
+                    <MealCard :meal="meal" />
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
 </template>
 
 <script>
-    import SubpageBanner from '@comp/partials/SubpageBanner.vue'
-    import FoodsTab from '@comp/partials/FoodsTab.vue'
-    import FoodCard from '@comp/partials/FoodCard.vue'
+import { mapGetters, mapActions } from "vuex"
+
+import SubpageBanner from '@comp/partials/SubpageBanner.vue'
+import FoodsTab from '@comp/partials/FoodsTab.vue'
+import MealCard from '@comp/partials/MealCard.vue'
 
 export default {
     components: {
         SubpageBanner,
         FoodsTab,
-        FoodCard,
+        MealCard,
     },
     data() {
         return {
@@ -87,7 +128,16 @@ export default {
                 },
             ],
         }
-    }
+    },
+    computed: {
+        ...mapGetters({ meals: 'meal/getMeals', isLoading: "meal/getIsLoading", })
+    },
+    methods: {
+        ...mapActions({ searched: 'meal/searchedMeals' })
+    },
+    mounted() {
+        // this.searched( this.$route.query.q )
+    },
 
 }
 </script>

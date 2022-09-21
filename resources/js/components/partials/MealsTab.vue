@@ -31,22 +31,30 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
                     <div class="row justify-content-center">
-                        <MealCard :meal="meal"  v-for="(meal, index) in breakfast" :key="index"/>
+                        <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in meals.breakfast" :key="index">
+                        <MealCard :meal="meal"  />
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
                     <div class="row justify-content-center">
-                        <MealCard :meal="meal"  v-for="(meal, index) in lunch" :key="index"/>
+                        <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in meals.lunch" :key="index">
+                        <MealCard :meal="meal"  />
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-snack" role="tabpanel" aria-labelledby="pills-snack-tab">
                     <div class="row justify-content-center">
-                        <MealCard :meal="meal"  v-for="(meal, index) in snack" :key="index"/>
+                        <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in meals.snack" :key="index">
+                        <MealCard :meal="meal"  />
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
                     <div class="row justify-content-center">
-                        <MealCard :meal="meal"  v-for="(meal, index) in snack" :key="index"/>
+                        <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in meals.dinner" :key="index">
+                        <MealCard :meal="meal"  />
+                        </div>
                     </div>
                 </div>
 
@@ -64,206 +72,6 @@ import MealCard from './MealCard.vue'
 export default {
     data() {
         return {
-            breakfast: [
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "breakfast",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "breakfast",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
-                    name: 'Meal Plan 2',
-                    type: "breakfast",
-                    price: 3
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_01_beragam_pilihan.jpg',
-                    name: 'Meal Plan 7',
-                    type: "breakfast",
-                    price: 3.33
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_02_mix_n_match.jpg',
-                    name: 'Meal Plan 8',
-                    type: "breakfast",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
-                    name: 'Meal Plan 3',
-                    type: "breakfast",
-                    price: 2.5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
-                    name: 'Meal Plan 4',
-                    type: "breakfast",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_04.jpg',
-                    name: 'Meal Plan 5',
-                    type: "breakfast",
-                    price: 4.5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "breakfast",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
-                    name: 'Meal Plan 2',
-                    type: "breakfast",
-                    price: 3
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "breakfast",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "breakfast",
-                    price: 5
-                },
-            ],
-            lunch: [
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
-                    name: 'Meal Plan 3',
-                    type: "lunch",
-                    price: 2.5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
-                    name: 'Meal Plan 4',
-                    type: "lunch",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "lunch",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "lunch",
-                    price: 5
-                },
-            ],
-            snack: [
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Sambal Meal Satay',
-                    type: "snack",
-                    price: '2'
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Sambal Meal Satay',
-                    type: "snack",
-                    price: '2'
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
-                    name: 'Meal Plan 2',
-                    type: "snack",
-                    price: 3
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "snack",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
-                    name: 'Meal Plan 3',
-                    type: "snack",
-                    price: 2.5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
-                    name: 'Meal Plan 4',
-                    type: "snack",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "snack",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "snack",
-                    price: 5
-                },
-            ],
-            dinner: [
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "dinner",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
-                    name: 'Meal Plan 2',
-                    type: "dinner",
-                    price: 3
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "dinner",
-                    price: 2
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                    name: 'Meal Plan 6',
-                    type: "dinner",
-                    price: 5
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Sambal Meal Satay',
-                    type: "dinner",
-                    price: '2'
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Sambal Meal Satay',
-                    type: "dinner",
-                    price: '2'
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
-                    name: 'Meal Plan 2',
-                    type: "dinner",
-                    price: 3
-                },
-                {
-                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
-                    name: 'Meal Plan 1',
-                    type: "dinner",
-                    price: 2
-                },
-            ],
         }
     },
     components: {
@@ -276,7 +84,8 @@ export default {
         ...mapActions({ loadMeals: 'meal/loadMeals' })
     },
     mounted() {
-        this.loadMeals()
+        // this.loadMeals()
+        console.log(this.meals);
     }
 
 

@@ -6,9 +6,9 @@
             <div class="widget widget_search mb-0 mx-4">
                 <form class="search-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Search your meal">
+                        <input type="text" v-model="search" name="search" placeholder="Search your meal">
                     </div>
-                    <button class="submit-btn" type="submit"><i class="ri-search-line"></i></button>
+                    <button class="submit-btn" @click.prevent="searchForm" type="submit"><i class="ri-search-line"></i></button>
                 </form>
             </div>
 
@@ -55,6 +55,12 @@ export default {
     data() {
         return {
             cartOpen: false,
+            search: '',
+        }
+    },
+    methods: {
+        searchForm() {
+            this.$router.push({ name: 'search', query: {q: this.search} })
         }
     }
 };
