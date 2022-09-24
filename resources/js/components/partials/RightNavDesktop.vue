@@ -6,7 +6,7 @@
             <div class="widget widget_search mb-0 mx-4">
                 <form class="search-form">
                     <div class="form-group">
-                        <input type="text" v-model="search" name="search" placeholder="Search your meal">
+                        <input type="text" v-model="search" name="search" placeholder="Search meals, plans, dishes, days">
                     </div>
                     <button class="submit-btn" @click.prevent="searchForm" type="submit"><i class="ri-search-line"></i></button>
                 </form>
