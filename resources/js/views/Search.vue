@@ -58,9 +58,11 @@
                         <div class="col-sm-6 align-self-center pb-2 d-flex justify-content-end align-items-center">
 
                             <select class="single-select mr-2">
-                                <option>Sory By</option>
-                                <option value="asc">Asc</option>
-                                <option value="desc">Desc</option>
+                                <option>Meal Type</option>
+                                <option value="asc">Lunch</option>
+                                <option value="desc">Breakfast</option>
+                                <option value="desc">Snack</option>
+                                <option value="desc">Dinner</option>
                             </select>
 
                             <button class="border-none" @click="showFilter = !showFilter">
@@ -74,32 +76,93 @@
                             <h4>Show Only</h4>
                             <hr>
                             <div class="my-2">
-                                <h6>Sort By</h6>
+                                <p class="fw-bold">Sort By</p>
                                 <div class="form">
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">Most Popular</label>
+                                        <input class="form-check-input" type="radio" name="sortBy" id="most-popular"
+                                            value="option1">
+                                        <label class="form-check-label ml-2" for="most-popular">Most Popular</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Newst</label>
+                                        <input class="form-check-input" type="radio" name="sortBy" id="newest"
+                                            value="option2">
+                                        <label class="form-check-label ml-2" for="newest">Newst</label>
                                     </div>
                                 </div>
                             </div>
                             <hr>
                             <div class="my-2">
-                                <h6>DIETARY PREFERENCES</h6>
+                                <p class="fw-bold">Dietary preferences</p>
                                 <div class="form">
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">Most Popular</label>
+                                        <input class="form-check-input" type="checkbox" name="Diary" id="Diary"
+                                            value="option1">
+                                        <label class="form-check-label ml-2" for="Diary">Diary Free</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Newst</label>
+                                        <input class="form-check-input" type="checkbox" name="egg" id="egg"
+                                            value="option2">
+                                        <label class="form-check-label ml-2" for="egg">Egg Free</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="gluten" id="gluten"
+                                            value="option1">
+                                        <label class="form-check-label ml-2" for="gluten">gluten Free</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="Nut" id="Nut"
+                                            value="option2">
+                                        <label class="form-check-label ml-2" for="Nut">Nut Free</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="Pescatarian" id="Pescatarian"
+                                            value="option1">
+                                        <label class="form-check-label ml-2" for="Pescatarian">Pescatarian</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="Vegan" id="Vegan"
+                                            value="option2">
+                                        <label class="form-check-label ml-2" for="Vegan">Vegan</label>
                                     </div>
                                 </div>
                             </div>
+                            <hr>
+                            <div class="my-2">
+                                <p class="fw-bold">Ingredients</p>
+                                <div class="form">
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Avacado" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Avacado">Avacado</label>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Beans" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Beans">Beans</label>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Beef" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Beef">Beef</label>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Bread" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Bread">Bread</label>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Cheese" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Cheese">Cheese</label>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="btn-check" id="btn-check-Chicken" autocomplete="off">
+                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Chicken">Chicken</label>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
                             <button class="btn btn-secondary">Apply</button>
 
                         </div>
@@ -107,7 +170,7 @@
 
                     </div>
 
-                    
+
                 </div>
             </div>
             <hr>
