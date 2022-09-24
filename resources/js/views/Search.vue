@@ -128,37 +128,37 @@
                             </div>
                             <hr>
                             <div class="my-2">
-                                <p class="fw-bold">Ingredients</p>
+                                <p class="fw-bold">Search by tags</p>
                                 <div class="form">
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Avacado" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Avacado">Avacado</label>
+                                        <input type="checkbox" class="btn-check" v-model="avacado" id="btn-check-Avacado" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="avacado ? 'bg-success text-white' : ''" for="btn-check-Avacado"> Avacado  <span class="text-danger" v-if="avacado">x</span> </label>
                                     </div>
 
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Beans" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Beans">Beans</label>
+                                        <input type="checkbox" class="btn-check" v-model="beans" id="btn-check-beans" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="beans ? 'bg-success text-white' : ''" for="btn-check-beans"> Beans  <span class="text-danger" v-if="beans">x</span> </label>
                                     </div>
 
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Beef" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Beef">Beef</label>
+                                        <input type="checkbox" class="btn-check" v-model="beef" id="btn-check-beef" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="beef ? 'bg-success text-white' : ''" for="btn-check-beef"> Beef  <span class="text-danger" v-if="beef">x</span> </label>
                                     </div>
 
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Bread" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Bread">Bread</label>
-                                    </div>
+                                        <input type="checkbox" class="btn-check" v-model="bread" id="btn-check-bread" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="bread ? 'bg-success text-white' : ''" for="btn-check-bread"> bread  <span class="text-danger" v-if="bread">x</span> </label>
+                                    </div>  
 
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Cheese" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Cheese">Cheese</label>
-                                    </div>
+                                        <input type="checkbox" class="btn-check" v-model="cheese" id="btn-check-cheese" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="cheese ? 'bg-success text-white' : ''" for="btn-check-cheese"> Cheese  <span class="text-danger" v-if="cheese">x</span> </label>
+                                    </div>  
 
                                     <div class="form-check-inline">
-                                        <input type="checkbox" class="btn-check" id="btn-check-Chicken" autocomplete="off">
-                                        <label class="border  px-2 py-1 btn-outline-success" for="btn-check-Chicken">Chicken</label>
-                                    </div>
+                                        <input type="checkbox" class="btn-check" v-model="chicken" id="btn-check-chicken" autocomplete="off">
+                                        <label class="border rounded px-2 py-1 " :class="chicken ? 'bg-success text-white' : ''" for="btn-check-chicken"> Chicken  <span class="text-danger" v-if="chicken">x</span> </label>
+                                    </div>  
                                     
                                 </div>
                             </div>
@@ -199,9 +199,15 @@ export default {
         SubpageBanner,
         FoodsTab,
         MealCard,
-    },
+    }, 
     data() {
         return {
+            avacado: false,
+            beans: false,
+            beef: false,
+            bread: false,
+            cheese: false,
+            chicken: false,
             showFilter: false,
             foods: [
                 {
