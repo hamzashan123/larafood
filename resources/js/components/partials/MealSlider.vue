@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
-                    <div class="section-title mb-0">
+                    <div class="section-title mb-3">
                         <h2 class="title">{{ title }}</h2>
                     </div>
                     <div class="meal-slider style-2">
