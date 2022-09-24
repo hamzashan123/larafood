@@ -199,7 +199,7 @@ export default {
         SubpageBanner,
         FoodsTab,
         MealCard,
-    },
+    }, 
     data() {
         return {
             avacado: false,
