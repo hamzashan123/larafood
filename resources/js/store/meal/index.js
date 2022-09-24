@@ -103,6 +103,57 @@ export default {
                 },
             ],
         },
+        thisWeekMeals: [
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
+                name: 'Monday',
+                price: 2,
+                type: ['Breakfast', 'Lunch', 'Dinner'],
+                day: 'Monday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                name: 'Tueday',
+                price: 5,
+                type: ['Breakfast', 'Lunch'],
+                day: 'Tuesday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                name: 'Wednesday',
+                price: 3,
+                type: ['Breakfast', 'Snacks', 'Dinner'],
+                day: 'Wednesday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_01_beragam_pilihan.jpg',
+                name: 'Thursday',
+                price: 3.33,
+                type: ['Breakfast', 'Lunch', 'Dinner'],
+                day: 'Thusrsday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_02_mix_n_match.jpg',
+                name: 'Firday',
+                price: 2,
+                type: ['Lunch'],
+                day: 'Friday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
+                name: 'Saturday',
+                price: 2.5,
+                type: ['Lunch', 'Dinner'],
+                day: 'Saturday'
+            },
+            {
+                image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
+                name: 'Sunday',
+                price: 5,
+                type: ['Lunch', 'Dinner'],
+                day: 'Sunday'
+            },
+          ],
         searchedMeals: [],
         meal: '',
         isLoading: false,
@@ -110,6 +161,7 @@ export default {
     },
     getters: {
         getMeals: ( state ) => state.meals,
+        getThisWeekMeals: ( state ) => state.thisWeekMeals,
         getSearchedMeals: ( state ) => state.searchedMeals,
 
     },

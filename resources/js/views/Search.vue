@@ -2,8 +2,8 @@
     <div>
         <SubpageBanner title="Search" subtitle="Best Meals to search!" />
 
-        <div class="container">
-            <div class="row my-4">
+        <div class="container mt-4 mb-4">
+            <!-- <div class="row my-4">
                 <h6>Filter:</h6>
                 <div class="col-sm-3 pb-2">
                     <select class="single-select ">
@@ -35,6 +35,80 @@
                         <option value="asc">Dinner</option>
                     </select>
                 </div>
+            </div> -->
+
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="sidebar-area">
+                        <div class="widget widget_search mb-0">
+                            <form class="search-form">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Search meals, plans, dishes, days">
+                                </div>
+                                <button class="submit-btn" type="submit"><i class="ri-search-line"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row position-relative">
+                        <div class="col-sm-6 align-self-center pb-2">
+                            <p class="mb-0">Showing 1–8 of 12 results</p>
+                        </div>
+                        <div class="col-sm-6 align-self-center pb-2 d-flex justify-content-end align-items-center">
+
+                            <select class="single-select mr-2">
+                                <option>Sory By</option>
+                                <option value="asc">Asc</option>
+                                <option value="desc">Desc</option>
+                            </select>
+
+                            <button class="border-none" @click="showFilter = !showFilter">
+                                <img src="/v-assets/img/icon/menu.svg" width="35" alt="">
+                            </button>
+
+
+                        </div>
+                        <!-- Filter div -->
+                        <div class='filter-popup' v-if="showFilter">
+                            <h4>Show Only</h4>
+                            <hr>
+                            <div class="my-2">
+                                <h6>Sort By</h6>
+                                <div class="form">
+                                    <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Most Popular</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Newst</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="my-2">
+                                <h6>DIETARY PREFERENCES</h6>
+                                <div class="form">
+                                    <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Most Popular</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Newst</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary">Apply</button>
+
+                        </div>
+                        <!-- filter div end -->
+
+                    </div>
+
+                    
+                </div>
             </div>
             <hr>
         </div>
@@ -65,6 +139,7 @@ export default {
     },
     data() {
         return {
+            showFilter: false,
             foods: [
                 {
                     image: 'https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg',

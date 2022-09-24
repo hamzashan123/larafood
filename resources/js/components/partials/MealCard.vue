@@ -6,7 +6,7 @@
             <div class="thumb">
                 <img :src="meal ? meal.image : ''" alt="img">
                 <div class="meal-image-badge " v-if="meal.type">
-                    <span class="mx-1 badge bg-primary text-capitalize " v-for="(type, index) in meal.type" :key="index">{{ type }}</span>
+                    <span class="mx-1 badge bg-dark text-capitalize " v-for="(type, index) in meal.type" :key="index">{{ type }}</span>
                 </div>
             </div>
             <div class="wrap-detail meal-details">
@@ -28,8 +28,8 @@
                     <span class="text-dark">Starting from </span>
                     <span class="link-btn"> ${{meal ? meal.price : ''  }}</span>
                 </div>
-                <div v-if="meal.days">
-                    <span class="badge bg-secondary mx-1" v-for="day in meal.days ">{{ day ? day : '' }}</span>
+                <div v-if="meal.days" class="list-group list-group-horizontal">
+                    <span class="list-group-item p-1 border-none mx-1" v-for="day in meal.days ">{{ day ? day : '' }}</span>
                 </div>
             </div>
             </router-link>

@@ -6,7 +6,7 @@
                 <section class="offer-area pd-bottom-90">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 align-self-center" v-for="(weeklyPlan, i) in weeklyPlans[weeklyPlanSelected]" :key="i">
+                            <div class="col-md-4 align-self-start" v-for="(weeklyPlan, i) in weeklyPlans[weeklyPlanSelected]" :key="i">
                                 <div class="single-blog-wrap">
                                     <div class="thumb">
                                         <img :src="weeklyPlan.image" alt="img" style="height: 350px; width: 100%; object-fit: cover;">
@@ -28,7 +28,7 @@
                                             </span>
                                         </span>
                                         <p> {{ weeklyPlan.description }} </p>
-                                        <router-link class="btn btn-dark" target="_blank" :to="{ name: 'food-detail' }">View</router-link>
+                                        <router-link class="py-2 px-3 rounded-pill btn-dark btn-dark" target="_blank" :to="{ name: 'food-detail' }">View</router-link>
                                     </div>
                                 </div>
                                 <!-- <div class="col-md-6">
@@ -171,8 +171,8 @@
                                                 <img class="img-responsive" :src="dish ? dish.image : ''" alt="img">
                                             </div>
                                             <div class="wrap-detail meal-details">
-                                                <h6 class="mt-0 mb-0 meal-title">{{ dish ? dish.name : '' }}</h6>
-                                                <router-link :to="{ name: 'food-detail' }">View</router-link>
+                                                <h6 class="mt-0 meal-title">{{ dish ? dish.name : '' }}</h6>
+                                                <router-link class="py-2 px-3 rounded-pill btn-dark" :to="{ name: 'food-detail' }">View</router-link>
                                             </div>
                                         </div>
                                     </div>
@@ -227,13 +227,15 @@
             </div>
         </div>
         <div class="mt-5">
-            <MealSlider title="Featured plans"/>
+            <MealSlider title="Featured plans" :meals="meals.all" />
         </div>
     </div>
     <!-- shop-details Area End -->
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex"
+
 import Modal from '@comp/partials/Modal.vue'
 import MealSlider from '@comp/partials/MealSlider.vue'
 import carousel from 'vue-owl-carousel'
@@ -375,6 +377,8 @@ export default {
         }
     },
     computed: {
+        ...mapGetters({ meals: 'meal/getMeals', isLoading: "meal/getIsLoading", }),
+
         weeklyPlansComp() {
             if( !this.weeknds ) {
                 return Object.fromEntries( Object.entries(this.weeklyPlans).slice(0, 5) )
