@@ -1,6 +1,6 @@
 <template>
   <!-- Banner Area Start-->
-    <section class="banner-area banner-area banner-top-spacing mb-5">
+    <section class="home banner-area banner-area banner-top-spacing mb-5">
         <!-- <div class="banner-thumb">
             <img src="/v-assets/img//home-2/banner/1.png" alt="img">
         </div> -->
