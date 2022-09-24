@@ -113,7 +113,7 @@ export default {
             },
             {
                 image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
-                name: 'Tueday',
+                name: 'Tuesday',
                 price: 5,
                 type: ['Breakfast', 'Lunch'],
                 day: 'Tuesday'
@@ -134,7 +134,7 @@ export default {
             },
             {
                 image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_02_mix_n_match.jpg',
-                name: 'Firday',
+                name: 'Friday',
                 price: 2,
                 type: ['Lunch'],
                 day: 'Friday'

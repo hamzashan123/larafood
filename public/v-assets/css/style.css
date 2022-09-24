@@ -1246,6 +1246,7 @@ button.btn-food-modal {
           box-shadow: none;
   background: rgba(41, 41, 41, 0.1);
   border: none;
+  margin-right: 8px;
 }
 .form-check .form-check-input:focus, .form-check .form-check-input:active {
   border: none;
