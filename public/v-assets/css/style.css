@@ -2819,6 +2819,13 @@ ul.side-navbar-items li a:hover {
   font-weight: 400;
   margin-bottom: 4px;
 }
+
+.this-week .thumb img {
+    width: calc(100vw/12);
+    height: 110px;
+    object-fit: cover;
+}
+
 .banner-inner h1 {
   color: #fff;
   text-transform: uppercase;

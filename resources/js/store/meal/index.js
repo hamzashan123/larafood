@@ -102,6 +102,224 @@ export default {
                     days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
                 },
             ],
+            breakfast: [
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
+                    name: 'Meal Plan 1',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                    name: 'Meal Plan 2',
+                    type: "breakfast",
+                    price: 3,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_01_beragam_pilihan.jpg',
+                    name: 'Meal Plan 7',
+                    type: "breakfast",
+                    price: 3.33,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_02_mix_n_match.jpg',
+                    name: 'Meal Plan 8',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
+                    name: 'Meal Plan 3',
+                    type: "breakfast",
+                    price: 2.5,
+                    type: ['Breakfast'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+                
+            ],
+            lunch: [
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
+                    name: 'Meal Plan 1',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Lunch'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Lunch'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                    name: 'Meal Plan 2',
+                    type: "breakfast",
+                    price: 3,
+                    type: ['Lunch'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                    name: 'Meal Plan 2',
+                    type: "breakfast",
+                    price: 3,
+                    type: ['Lunch'],
+                    days: ['Saturday', 'Sunday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
+                    name: 'Meal Plan 1',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Lunch'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Lunch'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+            ],
+            snack: [
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
+                    name: 'Meal Plan 4',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Snacks'],
+                    days: ['Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_04.jpg',
+                    name: 'Meal Plan 5',
+                    type: "breakfast",
+                    price: 4.5,
+                    type: ['Snacks'],
+                    days: ['Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Snacks'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                    name: 'Meal Plan 2',
+                    type: "breakfast",
+                    price: 3,
+                    type: ['Snacks'],
+                    days: ['Saturday', 'Sunday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_03.jpg',
+                    name: 'Meal Plan 1',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Snacks'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Snacks'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+            ], 
+            dinner: [
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['dinner'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_01.jpg',
+                    name: 'Meal Plan 2',
+                    type: "breakfast",
+                    price: 3,
+                    type: ['Dinner'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_01_beragam_pilihan.jpg',
+                    name: 'Meal Plan 7',
+                    type: "breakfast",
+                    price: 3.33,
+                    type: ['Dinner'],
+                    days: ['Monday', 'Tuesday', 'Wednesday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_02_mix_n_match.jpg',
+                    name: 'Meal Plan 8',
+                    type: "breakfast",
+                    price: 2,
+                    type: ['Dinner'],
+                    days: ['Monday', 'Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_02.jpg',
+                    name: 'Meal Plan 3',
+                    type: "breakfast",
+                    price: 2.5,
+                    type: ['Dinner'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_40_04.jpg',
+                    name: 'Meal Plan 4',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Dinner'],
+                    days: ['Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/benefit_04.jpg',
+                    name: 'Meal Plan 5',
+                    type: "breakfast",
+                    price: 4.5,
+                    type: ['Dinner'],
+                    days: ['Friday']
+                },
+                {
+                    image: 'https://assets.kulina.id/kulina-assets/web/images/menus-new-user/menu_30_04.jpg',
+                    name: 'Meal Plan 6',
+                    type: "breakfast",
+                    price: 5,
+                    type: ['Dinner'],
+                    days: ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                },
+                
+            ],
         },
         thisWeekMeals: [
             {

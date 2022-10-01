@@ -1,7 +1,8 @@
 <template>
   <!-- product Area Start-->
-    <section class="product-area pd-bottom-90 pt-5 meals-tab">
+    <section class="product-area pd-bottom-60 pt-5 meals-tab">
         <div class="container">
+            <h2 class="text-center my-5">Delivering 4 meals a day</h2>
             <div class="row justify-content-center">
                 <div class="col-12">
                     <ul class="product-nav  nav nav-pills justify-content-center" id="pills-tab" role="tablist">
@@ -84,7 +85,7 @@ export default {
         ...mapActions({ loadMeals: 'meal/loadMeals' })
     },
     mounted() {
-        // this.loadMeals()
+        this.loadMeals()
         console.log(this.meals);
     }
 

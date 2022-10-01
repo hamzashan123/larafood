@@ -1,10 +1,10 @@
 
 <template>
-    <div>
+    <div class="" style="flex: 0 0 50%;">
         <div class="nav-right-part nav-right-part-desktop">
 
-            <div class="widget widget_search mb-0 mx-4">
-                <form class="search-form">
+            <div class="widget widget_search mb-0 mx-4 flex-fill">
+                <form class="search-form rounded-3 border">
                     <div class="form-group">
                         <input type="text" v-model="search" name="search" placeholder="Search meals, plans, dishes, days">
                     </div>
