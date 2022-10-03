@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="shop-item-details mt-0">
-                        <span class=" badge bg-primary text-capitalize " > Lunch </span>
+                        <span class=" badge bg-primary text-capitalize " > BreakFast </span>
                         <h2 class="entry-title mt-0">Meal Plan 1</h2>
                         <div class="row">
                             <p class="mt-2">What's included: </p>
