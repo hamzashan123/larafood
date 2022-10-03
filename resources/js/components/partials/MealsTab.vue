@@ -2,7 +2,7 @@
   <!-- product Area Start-->
     <section class="product-area pd-bottom-60 pt-5 meals-tab">
         <div class="container">
-            <h2 class="text-center my-5">Delivering 4 meals a day</h2>
+            <h2 class="text-center my-5">Delivering 4 times a day</h2>
             <div class="row justify-content-center">
                 <div class="col-12">
                     <ul class="product-nav  nav nav-pills justify-content-center" id="pills-tab" role="tablist">
