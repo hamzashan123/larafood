@@ -44,6 +44,12 @@
 
         </Modal>
 
+        <Modal title="Dish" modalFor="dishDetails" size="xl" backdrop="static" >
+            <template v-slot:modal-body>
+                <FoodDetail />
+            </template>
+        </Modal>
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -163,7 +169,7 @@
                             <p class="mt-2">What's included: </p>
                             
                             <div class="meal-detail-dishes-slider style-2 mb-3">
-                                <carousel :autoplay="true" :nav="false" :items="Number(2)" :margin="Number(10)" :dots="false">
+                                <carousel :autoplay="true" :nav="true" :items="Number(2)" :margin="Number(10)" :dots="false">
                                     <div class="item" v-for="(dish, index) in weeklyPlans[weeklyPlanSelected]" :key="index">
                                         <div class="single-blog-wrap">
                                             
@@ -172,7 +178,10 @@
                                             </div>
                                             <div class="wrap-detail meal-details">
                                                 <h6 class="mt-0 meal-title">{{ dish ? dish.name : '' }}</h6>
-                                                <router-link class="py-2 px-3 rounded-pill btn-dark" :to="{ name: 'food-detail' }">View</router-link>
+                                                <!-- <router-link class="py-2 px-3 rounded-pill btn-dark" :to="{ name: 'food-detail' }">View</router-link> -->
+                                                <a class="py-2 px-3 rounded-pill btn-dark"
+                                                href="" data-bs-toggle="modal"
+                                                data-bs-target="#dishDetails">View</a>
                                             </div>
                                         </div>
                                     </div>
@@ -239,12 +248,14 @@ import { mapGetters, mapActions } from "vuex"
 import Modal from '@comp/partials/Modal.vue'
 import MealSlider from '@comp/partials/MealSlider.vue'
 import carousel from 'vue-owl-carousel'
+import FoodDetail from './FoodDetail.vue'
 
 export default {
     components: {
         Modal,
         MealSlider,
         carousel,
+        FoodDetail
     },
     data() {
         return {

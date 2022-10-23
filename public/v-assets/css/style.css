@@ -2826,6 +2826,18 @@ ul.side-navbar-items li a:hover {
     object-fit: cover;
 }
 
+.meal-detail-dishes-slider .owl-nav {
+  position: absolute;
+  top: -55px;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.owl-nav div {
+  text-transform: capitalize;
+}
+
 .banner-inner h1 {
   color: #fff;
   text-transform: uppercase;

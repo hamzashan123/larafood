@@ -113,7 +113,7 @@
         <section class="intro-contact-area pd-bottom-60 meal-slider">
             <div class="container">
                 <div class="section-title mb-4 text-center">
-                    <h2 class="title">Upcoming week Meals</h2>
+                    <h2 class="title">Upcoming Meals</h2>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-4 col-md-6" v-for="(meal, index) in thisWeekMeals" :key="index">
